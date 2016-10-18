@@ -1,0 +1,17 @@
+-----------------------------------------------Todo
+Highlight input
+Dropdown
+Decide main options for dropdowns
+Onclick on dropdown
+Onclick on all maindropdowns
+Click on input div puts it input in focus
+Mobile
+Create favicon
+Link to faviocon
+-----------------Big/Later
+Style input and title after onclick
+Animate input and title after onclick
+-----------------------------------------------In Progress
+
+-----------------------------------------------Done!
+Write more todos
