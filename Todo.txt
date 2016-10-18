@@ -4,14 +4,20 @@ Dropdown
 Decide main options for dropdowns
 Onclick on dropdown
 Onclick on all maindropdowns
-Click on input div puts it input in focus
 Mobile
 Create favicon
 Link to faviocon
+
+Title onClick
+Title onClick remove text
+Title onClick remove focus from dropdown
+Title onClick reset dropdown and page
 -----------------Big/Later
 Style input and title after onclick
 Animate input and title after onclick
 -----------------------------------------------In Progress
 
 -----------------------------------------------Done!
+Click on input div puts input in focus
+Changed title
 Write more todos
