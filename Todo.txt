@@ -1,13 +1,15 @@
 -----------------------------------------------Todo
 Highlight input
-Dropdown
+Show dropdown onClick
+hide DropDown onclick
+Style DropDown
+Add favicons to DropDown
 Decide main options for dropdowns
 Onclick on dropdown
 Onclick on all maindropdowns
 Mobile
 Create favicon
 Link to faviocon
-
 Title onClick
 Title onClick remove text
 Title onClick remove focus from dropdown
@@ -16,7 +18,7 @@ Title onClick reset dropdown and page
 Style input and title after onclick
 Animate input and title after onclick
 -----------------------------------------------In Progress
-
+Start on Dropdown
 -----------------------------------------------Done!
 Click on input div puts input in focus
 Changed title
