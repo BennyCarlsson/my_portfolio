@@ -30,7 +30,6 @@ font-family: 'Roboto', sans-serif;
 font-weight: 400;
 }
 #searchBarDiv{
-  border: 1px solid #d9d9d9;
   height: 38px;
   max-width: 584px;
   width: 96%;
@@ -65,9 +64,15 @@ font-weight: 400;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-#DropDownMenu{
-  max-width: 584px;
-  width: 96%;
+#DropDownMenuDiv{
+  padding-top: 38px;
+  overflow: hidden;
+}
+.DropDownMenu{
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-left-radius: 2px !important;
+  border-bottom-right-radius: 2px !important;
 }
 @media only screen and (max-width: 1024px) {
   #titleLogoH1{

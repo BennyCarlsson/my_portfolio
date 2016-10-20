@@ -14,7 +14,7 @@ class DropDown extends Component{
 
   render() {
     return (
-      <div>
+      <div id="DropDownMenuDiv">
       <Paper className="DropDownMenu">
         <Menu>
           <MenuItem primaryText="Refresh" />

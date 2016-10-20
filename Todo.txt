@@ -1,5 +1,6 @@
 -----------------------------------------------Todo
 Highlight input
+Highlight dropdown
 Show dropdown onClick
 hide DropDown onclick
 Style DropDown
@@ -18,7 +19,7 @@ Title onClick reset dropdown and page
 Style input and title after onclick
 Animate input and title after onclick
 -----------------------------------------------In Progress
-Start on Dropdown
+Position DropDownMenu
 -----------------------------------------------Done!
 Click on input div puts input in focus
 Changed title
