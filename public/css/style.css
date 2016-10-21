@@ -43,6 +43,7 @@ font-weight: 400;
   color:#7d7d7d !important;
   font-size: 35px !important;
   position: absolute !important;
+  font-color:green;
 }
 #searchBar{
   background-color: white;
@@ -52,17 +53,16 @@ font-weight: 400;
   width: 96%;
   position: absolute;
   outline: none;
-
   font: 16px arial,sans-serif;
   line-height: 26px !important;
   height: 26px !important;
-
   display: block;
   margin : 0 auto;
   padding: 10px 34px 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+.focusBorder{
+  border: 1px solid #4d90fe;
 }
 #DropDownMenuDiv{
   padding-top: 38px;

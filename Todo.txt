@@ -1,8 +1,7 @@
 -----------------------------------------------Todo
 Highlight input
 Highlight dropdown
-Show dropdown onClick
-hide DropDown onclick
+
 Style DropDown
 Add favicons to DropDown
 Decide main options for dropdowns
@@ -19,8 +18,10 @@ Title onClick reset dropdown and page
 Style input and title after onclick
 Animate input and title after onclick
 -----------------------------------------------In Progress
-Position DropDownMenu
+Show dropdown onClick
+hide DropDown onclick
 -----------------------------------------------Done!
 Click on input div puts input in focus
 Changed title
 Write more todos
+Position DropDownMenu
