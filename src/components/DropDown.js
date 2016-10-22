@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import MenuItem from 'material-ui/MenuItem';
 import Paper from 'material-ui/Paper';
-import Menu from 'material-ui/Menu';
+import {List, ListItem} from 'material-ui/List';
 
 class DropDown extends Component{
     constructor(props) {
@@ -15,12 +14,12 @@ class DropDown extends Component{
     return (
       <div id="DropDownMenuDiv">
       <Paper className="DropDownMenu">
-        <Menu>
-          <MenuItem primaryText="About" />
-          <MenuItem primaryText="Projects" />
-          <MenuItem primaryText="Lorem Ipsum" />
-          <MenuItem primaryText="Contact" />
-        </Menu>
+        <List>
+          <ListItem primaryText="About" disableKeyboardFocus={true}/>
+          <ListItem primaryText="Projects" disableKeyboardFocus={true}/>
+          <ListItem primaryText="Lorem Ipsum" disableKeyboardFocus={true}/>
+          <ListItem primaryText="Contact" disableKeyboardFocus={true}/>
+        </List>
       </Paper>
     </div>
     );

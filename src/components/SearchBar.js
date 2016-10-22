@@ -7,11 +7,11 @@ class SearchBar extends Component{
     super(props);
     this.state = {showDropDown:false};
   }
-  onFocus(e){
-    console.log(e);
+  onFocus(){
     this.setState({showDropDown:true});
-    //this.refs.searchBar.focus();
-    //funkar inte för att dropdownen får focus?? nee nvm
+  }
+  onBlur(){
+    this.setState({showDropDown:false});
   }
   handleClick(){
     this.refs.searchBar.focus();
@@ -19,7 +19,7 @@ class SearchBar extends Component{
   render(){
     return(
         <div id="searchBarDiv" onClick={this.handleClick.bind(this)}>
-          <input ref="searchBar" key="searchBarKey" id="searchBar" onFocus={this.onFocus.bind(this)} type="text"/>
+          <input ref="searchBar" key="searchBarKey" id="searchBar" onFocus={this.onFocus.bind(this)} onBlur={this.onBlur.bind(this)} type="text"/>
           <FontIcon className="material-icons" id="searchBarHamburgerMenuIcon">search</FontIcon>
           {this.state.showDropDown ? <DropDown/> : ""}
         </div>
