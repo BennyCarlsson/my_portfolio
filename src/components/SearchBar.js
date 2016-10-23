@@ -3,25 +3,24 @@ import FontIcon from 'material-ui/FontIcon';
 import DropDown from './DropDown.js';
 
 class SearchBar extends Component{
-  constructor(props) {
-    super(props);
-    this.state = {showDropDown:false};
-  }
   onFocus(){
-    this.setState({showDropDown:true});
+    this.props.showDropDown();
   }
-  onBlur(){
-    this.setState({showDropDown:false});
+  hideDropDown(){
+    this.props.hideDropDown();
   }
   handleClick(){
     this.refs.searchBar.focus();
+    this.props.showDropDown();
   }
   render(){
     return(
-        <div id="searchBarDiv" onClick={this.handleClick.bind(this)}>
-          <input ref="searchBar" key="searchBarKey" id="searchBar" onFocus={this.onFocus.bind(this)} onBlur={this.onBlur.bind(this)} type="text"/>
+        <div id="searchBarDiv">
+          <div id="innerSearchBarDiv" onClick={this.handleClick.bind(this)}>
+            <input ref="searchBar" key="searchBarKey" id="searchBar" onFocus={this.onFocus.bind(this)} type="text"/>
+          </div>
           <FontIcon className="material-icons" id="searchBarHamburgerMenuIcon">search</FontIcon>
-          {this.state.showDropDown ? <DropDown/> : ""}
+          {this.props.dropDownState ? <DropDown hideDropDown={this.hideDropDown.bind(this)}/> : ""}
         </div>
     );
   }

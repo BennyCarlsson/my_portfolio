@@ -16,20 +16,42 @@ const styles = {
     height: '100vh',
   },
 };
-class App extends Component {
-  getChildContext() {
-    injectTapEventPlugin();
-    return { muiTheme: getMuiTheme(baseTheme) };
+class Index extends Component{
+  constructor(props) {
+    super(props);
+    this.state = {showDropDown:false};
+  }
+  hideDropDown(){
+    this.setState({showDropDown:false});
+  }
+  bodyClick(e){
+    var source = e.target;
+    var isInsideSearchBarDiv = false;
+    while(source.parentNode){
+      if(source === this.refs.searchBarDivRef){
+        isInsideSearchBarDiv = true;
+        break;
+      }
+      source = source.parentNode
+    }
+    if(!isInsideSearchBarDiv){
+      this.setState({showDropDown:false});
+    }
+  }
+  showDropDown(){
+    this.setState({showDropDown:true});
   }
   render() {
     return (
       <div id="app">
-      <div id="content">
+      <div id="content" onClick={this.bodyClick.bind(this)}>
         <GridList cols={12} style={styles.gridList}>
           <GridTile cols={2} rows={1}></GridTile>
           <GridTile cols={8} rows={1} style={styles.gridList}>
             <TitleLogo/>
-            <SearchBar/>
+            <div id="asd" ref="searchBarDivRef">
+            <SearchBar dropDownState={this.state.showDropDown} showDropDown={this.showDropDown.bind(this)} hideDropDown={this.hideDropDown.bind(this)}/>
+            </div>
           </GridTile>
           <GridTile cols={2} rows={1}></GridTile>
         </GridList>
@@ -38,8 +60,18 @@ class App extends Component {
     );
   }
 }
+class App extends Component {
+  getChildContext() {
+    injectTapEventPlugin();
+    return { muiTheme: getMuiTheme(baseTheme) };
+  }
+  render(){
+    return(
+      <Index/>
+    );
+  }
+}
 App.childContextTypes = {
   muiTheme: React.PropTypes.object.isRequired,
 };
-
 export default App;

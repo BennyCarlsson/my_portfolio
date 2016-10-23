@@ -68,6 +68,15 @@ font-weight: 400;
   padding-top: 38px;
   overflow: hidden;
 }
+#innerSearchBarDiv{
+  height: 38px;
+  max-width: 584px;
+  width: 96%;
+  position: absolute;
+}
+.hiddenClass{
+  display: none;
+}
 .DropDownMenu{
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
