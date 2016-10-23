@@ -13,6 +13,10 @@ class SearchBar extends Component{
     this.refs.searchBar.focus();
     this.props.showDropDown();
   }
+  showPage(){
+    this.hideDropDown();
+    this.props.showPage(true);
+  }
   render(){
     return(
         <div id="searchBarDiv">
@@ -20,7 +24,7 @@ class SearchBar extends Component{
             <input ref="searchBar" key="searchBarKey" id="searchBar" onFocus={this.onFocus.bind(this)} type="text"/>
           </div>
           <FontIcon className="material-icons" id="searchBarHamburgerMenuIcon">search</FontIcon>
-          {this.props.dropDownState ? <DropDown hideDropDown={this.hideDropDown.bind(this)}/> : ""}
+          {this.props.dropDownState ? <DropDown showPage={this.showPage.bind(this)}/> : ""}
         </div>
     );
   }

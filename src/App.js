@@ -19,7 +19,7 @@ const styles = {
 class Index extends Component{
   constructor(props) {
     super(props);
-    this.state = {showDropDown:false};
+    this.state = {showDropDown:false , showPage:false};
   }
   hideDropDown(){
     this.setState({showDropDown:false});
@@ -41,6 +41,9 @@ class Index extends Component{
   showDropDown(){
     this.setState({showDropDown:true});
   }
+  showPage(bool){
+    this.setState({showPage:bool});
+  }
   render() {
     return (
       <div id="app">
@@ -48,9 +51,15 @@ class Index extends Component{
         <GridList cols={12} style={styles.gridList}>
           <GridTile cols={2} rows={1}></GridTile>
           <GridTile cols={8} rows={1} style={styles.gridList}>
-            <TitleLogo/>
-            <div id="asd" ref="searchBarDivRef">
-            <SearchBar dropDownState={this.state.showDropDown} showDropDown={this.showDropDown.bind(this)} hideDropDown={this.hideDropDown.bind(this)}/>
+            <TitleLogo showPage={this.state.showPage}/>
+            <div ref="searchBarDivRef">
+            <SearchBar
+              dropDownState={this.state.showDropDown}
+              showDropDown={this.showDropDown.bind(this)}
+              hideDropDown={this.hideDropDown.bind(this)}
+              showingPageState={this.state.showingPage}
+              showPage={this.showPage.bind(this)}
+            />
             </div>
           </GridTile>
           <GridTile cols={2} rows={1}></GridTile>

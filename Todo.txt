@@ -17,9 +17,9 @@ Title onClick remove focus from dropdown
 Title onClick reset dropdown and page
 -----------------Big/Later
 Style input and title after onclick
-Animate input and title after onclick
------------------------------------------------In Progress
 
+-----------------------------------------------In Progress
+Animate input and title after onclick
 -----------------------------------------------Done!
 hide DropDown onclick
 Onclick on dropdown
