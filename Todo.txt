@@ -9,7 +9,6 @@ Decide main options for dropdowns
 Mobile
 Create favicon
 Link to faviocon
-Title onClick
 Title onClick remove text
 Title onClick remove focus from dropdown
 Title onClick reset dropdown and page
@@ -17,7 +16,6 @@ Title onClick reset dropdown and page
 Style input and title after onclick
 -----------------------------------------------In Progress
 Animate input and title after onclick
-Onclick on all maindropdowns
 -----------------------------------------------Done!
 hide DropDown onclick
 Onclick on dropdown
@@ -27,3 +25,5 @@ Changed title
 Write more todos
 Position DropDownMenu
 Style DropDown
+Onclick on all maindropdowns
+Title onClick

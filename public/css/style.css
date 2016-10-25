@@ -34,6 +34,9 @@ text-decoration: none;
 font-family: 'Roboto', sans-serif;
 font-weight: 400;
 }
+.titleLogoDiv:hover{
+  cursor: pointer;
+}
 #searchBarDiv{
   height: 38px;
   max-width: 584px;

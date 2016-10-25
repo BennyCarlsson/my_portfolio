@@ -44,6 +44,9 @@ class Index extends Component{
   showPage(bool){
     this.setState({showPage:bool});
   }
+  resetPage(){
+    this.setState({showPage:false});
+  }
   render() {
     return (
       <div id="app">
@@ -51,7 +54,7 @@ class Index extends Component{
         <GridList cols={12} style={styles.gridList}>
           <GridTile cols={2} rows={1}></GridTile>
           <GridTile cols={8} rows={1} style={styles.gridList}>
-            <TitleLogo showPage={this.state.showPage}/>
+            <TitleLogo resetPage={this.resetPage.bind(this)} showPage={this.state.showPage}/>
             <div ref="searchBarDivRef">
             <SearchBar
               dropDownState={this.state.showDropDown}
