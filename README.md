@@ -1,3 +1,3 @@
 work in progress..
 
-Will be be publiched on [BennyCarlsson.com](http://bennycarlsson.com/)
+Will be be published on [BennyCarlsson.com](http://bennycarlsson.com/)
