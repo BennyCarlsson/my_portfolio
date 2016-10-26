@@ -21,18 +21,48 @@ body{
   font-size: 4vw;
   margin-top: 30vh;
   text-align: center;
-  margin-bottom: -16px;
+  margin-bottom: -23px;
+  animation-name: titleLogoBigAnimation;
+  animation-duration: 1s;
+}
+@keyframes titleLogoBigAnimation {
+    from {
+      font-size: 2em;
+      font-size: 2vw;
+      margin-top: 0vh;
+    }
+    to {
+      font-size: 2em;
+      font-size: 4vw;
+      margin-top: 30vh;
+      margin-bottom: -23px;
+    }
+}
+@keyframes titleLogoSmallAnimation {
+    from {
+      font-size: 2em;
+      font-size: 4vw;
+      margin-top: 30vh;
+      margin-bottom: -23px;
+    }
+    to {
+      font-size: 2em;
+      font-size: 2vw;
+      margin-top: 0vh;
+    }
 }
 .titleLogoDiv-small{
   font-size: 2em;
   font-size: 2vw;
   margin-top: 0vh;
+  animation-name: titleLogoSmallAnimation;
+  animation-duration: 1s;
 }
 .titleLogoDiv h1{
 color: white;
 text-decoration: none;
 font-family: 'Roboto', sans-serif;
-font-weight: 400;
+font-weight: 300;
 }
 .titleLogoDiv:hover{
   cursor: pointer;
