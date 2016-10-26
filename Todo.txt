@@ -15,6 +15,7 @@ Title onClick reset dropdown and page
 -----------------Big/Later
 Style input and title after onclick
 -----------------------------------------------In Progress
+
 Animate input and title after onclick
 -----------------------------------------------Done!
 hide DropDown onclick
