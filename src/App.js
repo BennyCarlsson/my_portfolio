@@ -46,6 +46,7 @@ class Index extends Component{
   }
   resetPage(){
     this.setState({showPage:false});
+    this.refs.searchBarref.clearSearchBar();
   }
   render() {
     return (
@@ -57,6 +58,7 @@ class Index extends Component{
             <TitleLogo resetPage={this.resetPage.bind(this)} showPage={this.state.showPage}/>
             <div ref="searchBarDivRef">
             <SearchBar
+              ref="searchBarref"
               dropDownState={this.state.showDropDown}
               showDropDown={this.showDropDown.bind(this)}
               hideDropDown={this.hideDropDown.bind(this)}

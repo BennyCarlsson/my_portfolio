@@ -17,6 +17,9 @@ class SearchBar extends Component{
     this.hideDropDown();
     this.props.showPage(true);
   }
+  clearSearchBar(){
+    this.refs.searchBar.value="";
+  }
   render(){
     return(
         <div id="searchBarDiv">
