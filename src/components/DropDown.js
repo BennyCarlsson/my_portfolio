@@ -8,7 +8,7 @@ import Email from 'material-ui/svg-icons/communication/email';
 
 class DropDown extends Component{
   aboutClick(){
-    this.props.showPage();
+    this.props.showPage("About");
   }
   projectClick(){
     this.props.showPage();

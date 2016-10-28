@@ -7,7 +7,6 @@ class TitleLogo extends Component{
   render(){
     var titleId = "titleLogoDiv";
     //ugly but if showPage null then none of these
-    console.log(this.props.showPage);
     titleId += this.props.showPage ? " titleLogoDiv-small" : "";
     titleId += this.props.showPage === false ? " titleLogoDiv-big" : "";
     return(

@@ -47,6 +47,7 @@ class Index extends Component{
   resetPage(){
     this.setState({showPage:false});
     this.refs.searchBarref.clearSearchBar();
+    this.refs.searchBarref.hidePage();
   }
   render() {
     return (

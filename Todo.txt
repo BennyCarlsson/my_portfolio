@@ -15,6 +15,7 @@ Title onClick reset dropdown and page
 -----------------Big/Later
 Style input and title after onclick
 -----------------------------------------------In Progress
+Bug: First click on title sets titleLogoDiv-big and triggers css animation
 Show something on dropdownclick
 -----------------------------------------------Done!
 hide DropDown onclick
