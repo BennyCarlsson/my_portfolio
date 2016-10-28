@@ -19,7 +19,7 @@ const styles = {
 class Index extends Component{
   constructor(props) {
     super(props);
-    this.state = {showDropDown:false , showPage:false};
+    this.state = {showDropDown:false , showPage:null};
   }
   hideDropDown(){
     this.setState({showDropDown:false});

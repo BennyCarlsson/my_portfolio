@@ -1,21 +1,21 @@
 -----------------------------------------------Todo
 Highlight input
 Highlight dropdown
+
 Tab in dropdown
 Arrows in dropdown
 Enter on dropdown
-Add icons to DropDown
+
 Decide main options for dropdowns
 Mobile
 Create favicon
 Link to faviocon
-
 Title onClick remove focus from dropdown
 Title onClick reset dropdown and page
 -----------------Big/Later
 Style input and title after onclick
 -----------------------------------------------In Progress
-
+Show something on dropdownclick
 -----------------------------------------------Done!
 hide DropDown onclick
 Onclick on dropdown
@@ -29,3 +29,4 @@ Onclick on all maindropdowns
 Title onClick
 Animate input and title after onclick
 Title onClick remove text
+Add icons to DropDown
