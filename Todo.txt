@@ -2,6 +2,11 @@
 Highlight input
 Highlight dropdown
 
+Fix About page
+Contact page
+Lorem ipsum page?
+Projects page
+
 Tab in dropdown
 Arrows in dropdown
 Enter on dropdown
