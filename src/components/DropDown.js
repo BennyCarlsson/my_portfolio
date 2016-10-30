@@ -11,13 +11,13 @@ class DropDown extends Component{
     this.props.showPage("About");
   }
   projectClick(){
-    this.props.showPage();
+    this.props.showPage("Projects");
   }
   loremIpsumClick(){
-    this.props.showPage();
+    this.props.showPage("LoremIpsum");
   }
   contactClick(){
-    this.props.showPage();
+    this.props.showPage("Contact");
   }
   render() {
     return (
