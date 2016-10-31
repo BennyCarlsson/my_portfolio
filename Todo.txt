@@ -5,7 +5,7 @@ Highlight dropdown
 Fix About page
 Contact page
 Lorem ipsum page?
-Projects page
+
 
 Tab in dropdown
 Arrows in dropdown
@@ -20,7 +20,9 @@ Title onClick reset dropdown and page
 -----------------Big/Later
 Style input and title after onclick
 -----------------------------------------------In Progress
-Show something on all dropdownclick
+Projects page
+-papers
+-animation
 -----------------------------------------------Done!
 hide DropDown onclick
 Onclick on dropdown
@@ -36,3 +38,4 @@ Animate input and title after onclick
 Title onClick remove text
 Add icons to DropDown
 Bug: First click on title sets titleLogoDiv-big and triggers css animation
+Show something on all dropdownclick
