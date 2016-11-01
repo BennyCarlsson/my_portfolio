@@ -6,6 +6,7 @@ Fix About page
 Contact page
 Lorem ipsum page?
 
+Get pictures for projects.(weppappansade)
 
 Tab in dropdown
 Arrows in dropdown
