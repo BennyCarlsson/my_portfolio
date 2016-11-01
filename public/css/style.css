@@ -68,6 +68,7 @@ font-weight: 300;
 }
 @keyframes titleLogoh1ToBig{
   from{
+    margin-top: 0px;
     font-weight: 400;
   }
   to{
@@ -86,6 +87,7 @@ font-weight: 300;
     animation-name: titleLogoh1ToSmall;
     animation-duration: 1s;
     font-weight: 400;
+    margin-top: 0px;
 }
 .titleLogoDiv-big h1{
   animation-name: titleLogoh1ToBig;
