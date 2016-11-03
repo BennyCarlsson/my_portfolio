@@ -245,7 +245,7 @@ font-weight: 300;
 }
 .projectPaperDiv6{
   animation-name: projectPapers6;
-  animation-duration: 6s;
+  animation-duration:   6s;
 }
 @keyframes projectPapers6{
   from{

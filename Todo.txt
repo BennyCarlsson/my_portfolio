@@ -8,6 +8,8 @@ Lorem ipsum page?
 
 Get pictures for projects.(weppappansade)
 
+check if font-awesome map is all needed?
+
 Tab in dropdown
 Arrows in dropdown
 Enter on dropdown
