@@ -173,87 +173,15 @@ font-weight: 300;
 .projectDiv{
   display: initial;
 }
-.projectPaperDiv1{
+#projectContent{
   animation-name: projectPapers;
   animation-duration: 2s;
 }
 @keyframes projectPapers{
   from{
-    position: absolute;
     margin-top: 1000px;
   }
   to{
-    margin-top: initial;
-    position: absolute;
-  }
-}
-.projectPaperDiv2{
-  animation-name: projectPapers2;
-  animation-duration: 3s;
-}
-@keyframes projectPapers2{
-  from{
-    position: absolute;
-    margin-top: 1000px;
-  }
-  to{
-    margin-top: initial;
-    position: absolute;
-  }
-}
-.projectPaperDiv3{
-  animation-name: projectPapers3;
-  animation-duration: 4s;
-}
-@keyframes projectPapers3{
-  from{
-    position: absolute;
-    margin-top: 1000px;
-  }
-  to{
-    margin-top: initial;
-    position: absolute;
-  }
-}
-.projectPaperDiv4{
-  animation-name: projectPapers;
-  animation-duration: 4s;
-}
-@keyframes projectPapers4{
-  from{
-    position: absolute;
-    margin-top: 1000px;
-  }
-  to{
-    margin-top: initial;
-    position: absolute;
-  }
-}
-.projectPaperDiv5{
-  animation-name: projectPapers5;
-  animation-duration: 5s;
-}
-@keyframes projectPapers5{
-  from{
-    position: absolute;
-    margin-top: 1000px;
-  }
-  to{
-    position: absolute;
-    margin-top: initial;
-  }
-}
-.projectPaperDiv6{
-  animation-name: projectPapers6;
-  animation-duration:   6s;
-}
-@keyframes projectPapers6{
-  from{
-    position: absolute;
-    margin-top: 1000px;
-  }
-  to{
-    position: absolute;
-    margin-top: initial;
+    margin-top: 5%;
   }
 }

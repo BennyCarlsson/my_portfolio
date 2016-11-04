@@ -1,7 +1,6 @@
 import React,{Component} from "react";
 import Paper from 'material-ui/Paper';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
-import FlatButton from 'material-ui/FlatButton';
 import IconButton from 'material-ui/IconButton';
 import ActionHome from 'material-ui/svg-icons/action/home';
 
@@ -18,32 +17,32 @@ class Projects extends Component{
       return(
         <div id="projectContent">
         <div id="projectDiv1" className="projectDiv">
-          <Paper style={style} zDepth={3} className="projectPaperDiv1">
+          <Paper style={style} zDepth={3} className="projectPaperDiv">
             <FollowMeHomeCard/>
           </Paper>
         </div>
         <div id="projectDiv2" className="projectDiv">
-          <Paper style={style} zDepth={3} className="projectPaperDiv2">
+          <Paper style={style} zDepth={3} className="projectPaperDiv">
             <FollowMeHomeCard/>
           </Paper>
         </div>
         <div id="projectDiv3" className="projectDiv">
-          <Paper style={style} zDepth={3} className="projectPaperDiv3">
+          <Paper style={style} zDepth={3} className="projectPaperDiv">
             <FollowMeHomeCard/>
           </Paper>
         </div>
         <div id="projectDiv4" className="projectDiv">
-          <Paper style={style} zDepth={3} className="projectPaperDiv4">
+          <Paper style={style} zDepth={3} className="projectPaperDiv">
             <FollowMeHomeCard/>
           </Paper>
         </div>
         <div id="projectDiv5" className="projectDiv">
-          <Paper style={style} zDepth={3} className="projectPaperDiv5">
+          <Paper style={style} zDepth={3} className="projectPaperDiv">
             <FollowMeHomeCard/>
           </Paper>
         </div>
         <div id="projectDiv6" className="projectDiv">
-          <Paper style={style} zDepth={3} className="projectPaperDiv6">
+          <Paper style={style} zDepth={3} className="projectPaperDiv">
             <FollowMeHomeCard/>
           </Paper>
         </div>
@@ -69,8 +68,8 @@ class FollowMeHomeCard extends Component{
           <ActionHome />
         </IconButton>
 
-          <i className="fa fa-github" aria-hidden="true"></i>
-        
+          <a href="https://github.com/BennyCarlsson/my_portfolio"><i className="fa fa-github" aria-hidden="true"></i></a>
+
         </CardActions>
       </Card>
     )
