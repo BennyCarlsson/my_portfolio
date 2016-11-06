@@ -5,6 +5,9 @@ html{
   max-height: 100vh;
   overflow: hidden;
 }
+a{
+  color:black;
+}
 body{
     background-color: white;
     width: 100vw;
@@ -184,4 +187,7 @@ font-weight: 300;
   to{
     margin-top: 5%;
   }
+}
+.muidocs-icon-custom-github:before {
+    content: "\e625";
 }
