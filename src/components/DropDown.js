@@ -13,9 +13,6 @@ class DropDown extends Component{
   projectClick(){
     this.props.showPage("Projects");
   }
-  loremIpsumClick(){
-    this.props.showPage("LoremIpsum");
-  }
   contactClick(){
     this.props.showPage("Contact");
   }
@@ -26,7 +23,6 @@ class DropDown extends Component{
         <List>
           <ListItem primaryText="About" leftIcon={<Person/>} onClick={this.aboutClick.bind(this)}/>
           <ListItem primaryText="Projects" leftIcon={<Folder/>} onClick={this.projectClick.bind(this)}/>
-          <ListItem primaryText="Lorem Ipsum" leftIcon={<Description/>} onClick={this.loremIpsumClick.bind(this)}/>
           <ListItem primaryText="Contact" leftIcon={<Email/>} onClick={this.contactClick.bind(this)}/>
         </List>
       </Paper>

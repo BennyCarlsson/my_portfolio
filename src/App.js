@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import {GridList, GridTile} from 'material-ui/GridList';
-import SearchBar from './components/SearchBar.js';
+import Menu from './components/Menu.js';
 import TitleLogo from './components/TitleLogo.js';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
@@ -60,7 +60,7 @@ class Index extends Component{
           <GridTile cols={8} rows={1} style={styles.gridList}>
             <TitleLogo resetPage={this.resetPage.bind(this)} showPage={this.state.showPage}/>
             <div ref="searchBarDivRef">
-            <SearchBar
+            <Menu
               ref="searchBarref"
               dropDownState={this.state.showDropDown}
               showDropDown={this.showDropDown.bind(this)}

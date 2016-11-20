@@ -1,10 +1,7 @@
 -----------------------------------------------Todo
-Highlight input
-Highlight dropdown
-
+Clean up old searchBar code..
 Fix About page
 Contact page
-Lorem ipsum page?
 
 Get pictures for projects.(weppappansade)
 
@@ -23,6 +20,7 @@ Title onClick reset dropdown and page
 -----------------Big/Later
 Style input and title after onclick
 -----------------------------------------------In Progress
+Remove searchBar add menu!
 Projects page
 -papers
 -animation
