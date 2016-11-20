@@ -20,11 +20,13 @@ Title onClick reset dropdown and page
 -----------------Big/Later
 Style input and title after onclick
 -----------------------------------------------In Progress
-Remove searchBar add menu!
+Style menu
+Rename DropDown to MenuItems
 Projects page
 -papers
 -animation
 -----------------------------------------------Done!
+Remove searchBar add menu!
 hide DropDown onclick
 Onclick on dropdown
 Show dropdown onClick
