@@ -22,6 +22,7 @@ Style input and title after onclick
 -----------------------------------------------In Progress
 Style menu
 Rename DropDown to MenuItems
+swipeable tabs
 Projects page
 -papers
 -animation
