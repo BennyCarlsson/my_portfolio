@@ -6,6 +6,10 @@ import Folder from 'material-ui/svg-icons/file/folder';
 import Description from 'material-ui/svg-icons/action/description';
 import Email from 'material-ui/svg-icons/communication/email';
 import {Tabs, Tab} from 'material-ui/Tabs';
+import SwipeableViews from 'react-swipeable-views';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Projects from './pages/Projects';
 
 const styles = {
   headline: {
@@ -23,6 +27,18 @@ const styles = {
 }
 
 class DropDown extends Component{
+  constructor(props) {
+   super(props);
+   this.state = {
+     slideIndex: 0,
+   };
+  }
+
+  handleChange = (value) => {
+   this.setState({
+     slideIndex: value,
+   });
+  }
   aboutClick(){
     this.props.showPage("About");
   }
@@ -34,37 +50,32 @@ class DropDown extends Component{
   }
   render() {
     return (
-      <div id="DropDownMenuDiv">
-  <Tabs inkBarStyle={{backgroundColor: 'red'}} className="tabs">
-    <Tab style={styles.tab} icon={<Person/>} label="ABOUT">
       <div>
-        <h2 style={styles.headline}>Tab One</h2>
-        <p>
-          This is an example tab.
-        </p>
-        <p>
-          You can put any sort of HTML or react component in here. It even keeps the component state!
-        </p>
+        <Tabs
+          inkBarStyle={{display: 'none'}}
+          tabItemContainerStyle={{background: '#00838F'}}
+          onChange={this.handleChange}
+          value={this.state.slideIndex}
+        >
+          <Tab style={styles.tab} icon={<Person/>} label="ABOUT" value={0} />
+          <Tab style={styles.tab} icon={<Folder/>} label="PROJECTS" value={1} />
+          <Tab style={styles.tab} icon={<Email/>} label="CONTACT" value={2} />
+        </Tabs>
+        <SwipeableViews
+          index={this.state.slideIndex}
+          onChangeIndex={this.handleChange}
+        >
+          <div>
+            <About/>
+          </div>
+          <div style={styles.slide}>
+            <Projects/>
+          </div>
+          <div style={styles.slide}>
+            <Contact/>
+          </div>
+        </SwipeableViews>
       </div>
-    </Tab>
-    <Tab style={styles.tab} icon={<Folder/>} label="PROJECTS">
-      <div>
-        <h2 style={styles.headline}>Tab Two</h2>
-        <p>
-          This is another example tab.
-        </p>
-      </div>
-    </Tab>
-    <Tab style={styles.tab} icon={<Email/>} label="CONTACT">
-      <div>
-        <h2 style={styles.headline}>Tab Three</h2>
-        <p>
-          This is a third example tab.
-        </p>
-      </div>
-    </Tab>
-  </Tabs>
-    </div>
     );
   }
 }

@@ -3,7 +3,6 @@ import FontIcon from 'material-ui/FontIcon';
 import DropDown from './DropDown.js';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import LoremIpsum from './pages/Lorem-Ipsum';
 import Projects from './pages/Projects';
 
 class SearchBar extends Component{
@@ -44,7 +43,6 @@ class SearchBar extends Component{
           </div>
           {this.state.showThisPage === "About"? <About/>:""}
           {this.state.showThisPage === "Projects"? <Projects/>:""}
-          {this.state.showThisPage === "LoremIpsum"? <LoremIpsum/>:""}
           {this.state.showThisPage === "Contact"? <Contact/>:""}
         </div>
     );
