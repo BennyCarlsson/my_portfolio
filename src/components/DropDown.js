@@ -51,16 +51,9 @@ class DropDown extends Component{
   render() {
     return (
       <div>
-        <Tabs
-          inkBarStyle={{display: 'none'}}
-          tabItemContainerStyle={{background: '#00838F'}}
-          onChange={this.handleChange}
-          value={this.state.slideIndex}
-        >
-          <Tab style={styles.tab} icon={<Person/>} label="ABOUT" value={0} />
-          <Tab style={styles.tab} icon={<Folder/>} label="PROJECTS" value={1} />
-          <Tab style={styles.tab} icon={<Email/>} label="CONTACT" value={2} />
-        </Tabs>
+        <MyTabs handleChange={this.handleChange.bind(this)}
+          slideIndex={this.state.slideIndex}
+          />
         <SwipeableViews
           index={this.state.slideIndex}
           onChangeIndex={this.handleChange}
@@ -75,6 +68,39 @@ class DropDown extends Component{
             <Contact/>
           </div>
         </SwipeableViews>
+      </div>
+    );
+  }
+}
+
+class MyTabs extends Component{
+  render(){
+    return(
+      <div>
+        <span className="desktopOnly">
+        <Tabs
+          inkBarStyle={{display: 'none'}}
+          tabItemContainerStyle={{background: '#00838F'}}
+          onChange={this.props.handleChange}
+          value={this.props.slideIndex}
+        >
+          <Tab style={styles.tab} label="ABOUT" value={0} className="asd" />
+          <Tab style={styles.tab} label="PROJECTS" value={1} />
+          <Tab style={styles.tab} label="CONTACT" value={2} />
+        </Tabs>
+        </span>
+        <span className="mobileOnly">
+        <Tabs
+          inkBarStyle={{display: 'none'}}
+          tabItemContainerStyle={{background: '#00838F'}}
+          onChange={this.props.handleChange}
+          value={this.props.slideIndex}
+        >
+          <Tab style={styles.tab} icon={<Person/>} value={0} className="asd" />
+          <Tab style={styles.tab} icon={<Folder/>} value={1} />
+          <Tab style={styles.tab} icon={<Email/>} value={2} />
+        </Tabs>
+        </span>
       </div>
     );
   }

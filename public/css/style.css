@@ -19,7 +19,6 @@ body{
 #content{
   background-color: #00838F;
 }
-
 .titleLogoDiv{
   font-size: 2em;
   font-size: 4vw;
@@ -154,23 +153,6 @@ font-weight: 300;
   border-bottom-left-radius: 2px !important;
   border-bottom-right-radius: 2px !important;
 }
-/*@media only screen and (max-width: 1024px) {
-  #titleLogoH1{
-    font-size: 2em;
-    font-size: 9vw;
-    margin-bottom: 33px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  #titleLogoH1{
-    font-size: 1em;
-    font-size: 16vw;
-    margin-bottom: 33px;
-  }
-  #lastnameInTitleLogo{
-    display: none;
-  }
-  */
 #projectContent{
   margin-top: 5%;
 }
@@ -191,4 +173,35 @@ font-weight: 300;
 }
 .muidocs-icon-custom-github:before {
     content: "\e625";
+}
+.mobileOnly{
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .mobileOnly{
+    display: none;
+  }
+/*  #titleLogoH1{
+    font-size: 2em;
+    font-size: 9vw;
+    margin-bottom: 33px;
+  }
+*/
+}
+@media only screen and (max-width: 767px) {
+  /*#titleLogoH1{
+    font-size: 1em;
+    font-size: 16vw;
+    margin-bottom: 33px;
+  }
+  #lastnameInTitleLogo{
+    display: none;
+  }
+  */
+  .mobileOnly{
+    display: block;
+  }
+  .desktopOnly{
+      display: none;
+  }
 }
