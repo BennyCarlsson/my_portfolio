@@ -23,6 +23,9 @@ const styles = {
   },
   tabs: {
     backgroundColor:"#00838F",
+  },
+  displayNone:{
+    display:"none",
   }
 }
 
@@ -50,7 +53,7 @@ class DropDown extends Component{
   }
   render() {
     return (
-      <div>
+      <div id="menyTabsDiv">
         <MyTabs handleChange={this.handleChange.bind(this)}
           slideIndex={this.state.slideIndex}
           />
@@ -58,6 +61,8 @@ class DropDown extends Component{
           index={this.state.slideIndex}
           onChangeIndex={this.handleChange}
         >
+          <div>
+          </div>
           <div>
             <About/>
           </div>
@@ -84,9 +89,10 @@ class MyTabs extends Component{
           onChange={this.props.handleChange}
           value={this.props.slideIndex}
         >
-          <Tab style={styles.tab} label="ABOUT" value={0} className="asd" />
-          <Tab style={styles.tab} label="PROJECTS" value={1} />
-          <Tab style={styles.tab} label="CONTACT" value={2} />
+          <Tab style={styles.displayNone} value={0} />
+          <Tab style={styles.tab} label="ABOUT" value={1} />
+          <Tab style={styles.tab} label="PROJECTS" value={2} />
+          <Tab style={styles.tab} label="CONTACT" value={3} />
         </Tabs>
         </span>
         <span className="mobileOnly">
@@ -96,9 +102,10 @@ class MyTabs extends Component{
           onChange={this.props.handleChange}
           value={this.props.slideIndex}
         >
-          <Tab style={styles.tab} icon={<Person/>} value={0} className="asd" />
-          <Tab style={styles.tab} icon={<Folder/>} value={1} />
-          <Tab style={styles.tab} icon={<Email/>} value={2} />
+          <Tab style={styles.displayNone} value={0} />
+          <Tab style={styles.tab} icon={<Person/>} value={1} />
+          <Tab style={styles.tab} icon={<Folder/>} value={2} />
+          <Tab style={styles.tab} icon={<Email/>} value={3} />
         </Tabs>
         </span>
       </div>

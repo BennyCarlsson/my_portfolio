@@ -171,6 +171,9 @@ font-weight: 300;
     margin-top: 5%;
   }
 }
+#menyTabsDiv{
+  text-align: center;
+}
 .muidocs-icon-custom-github:before {
     content: "\e625";
 }
