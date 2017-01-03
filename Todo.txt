@@ -2,30 +2,24 @@
 Clean up old searchBar code..
 Fix About page
 Contact page
-
-Get pictures for projects.(weppappansade)
-
-check if font-awesome map is all needed?
-
-Tab in dropdown
-Arrows in dropdown
-Enter on dropdown
-
-Decide main options for dropdowns
-Mobile
+Get pictures for projects.(webbappansade)
+fix warnings
+Mobile (first?)
 Create favicon
 Link to faviocon
 Title onClick remove focus from dropdown
 Title onClick reset dropdown and page
------------------Big/Later
 Style input and title after onclick
------------------------------------------------In Progress
 Style menu
 Rename DropDown to MenuItems
-swipeable tabs
 Projects page
 -papers
 -animation
+-----------------------------------------------In Progress
+Title animation
+--Title onclick reset pages
+-- First menuclick no page animation
+--Swipe left from about resets pages and title
 -----------------------------------------------Done!
 Remove searchBar add menu!
 hide DropDown onclick
@@ -43,3 +37,4 @@ Title onClick remove text
 Add icons to DropDown
 Bug: First click on title sets titleLogoDiv-big and triggers css animation
 Show something on all dropdownclick
+swipeable tabs

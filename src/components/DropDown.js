@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import Paper from 'material-ui/Paper';
-import {List, ListItem} from 'material-ui/List';
 import Person from 'material-ui/svg-icons/social/person';
 import Folder from 'material-ui/svg-icons/file/folder';
-import Description from 'material-ui/svg-icons/action/description';
 import Email from 'material-ui/svg-icons/communication/email';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import SwipeableViews from 'react-swipeable-views';
@@ -28,7 +25,6 @@ const styles = {
     display:"none",
   }
 }
-
 class DropDown extends Component{
   constructor(props) {
    super(props);
@@ -36,20 +32,11 @@ class DropDown extends Component{
      slideIndex: 0,
    };
   }
-
   handleChange = (value) => {
    this.setState({
      slideIndex: value,
    });
-  }
-  aboutClick(){
-    this.props.showPage("About");
-  }
-  projectClick(){
-    this.props.showPage("Projects");
-  }
-  contactClick(){
-    this.props.showPage("Contact");
+   this.props.showPage();
   }
   render() {
     return (

@@ -1,8 +1,6 @@
 import React,{Component} from "react";
 import Paper from 'material-ui/Paper';
-import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
-import IconButton from 'material-ui/IconButton';
-import ActionHome from 'material-ui/svg-icons/action/home';
+import {Card, CardActions, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 
 const style = {
   height: 250,
@@ -68,7 +66,7 @@ class FollowMeHomeCard extends Component{
           overlay={<CardTitle style={titleStyle} title="Follow Me Home"/>}
         >
           <div className="paperImageClass" style={imageStyleDiv}>
-            <img src="images/foljmejhem.png" style={imageStyle}/>
+            <img src="images/foljmejhem.png" alt="följ mej hem" style={imageStyle}/>
           </div>
         </CardMedia>
         <CardText>
@@ -90,7 +88,7 @@ class BaraGodaNyheter extends Component{
           overlay={<CardTitle style={titleStyle} title="Bara Goda Nyheter"/>}
         >
           <div className="paperImageClass" style={imageStyleDiv}>
-            <img src="images/baragodanyheter.png" style={imageStyle}/>
+            <img src="images/baragodanyheter.png" alt="Bara goda nyheter" style={imageStyle}/>
           </div>
         </CardMedia>
         <CardText>
@@ -112,7 +110,7 @@ class BaraGodaNyheter extends Component{
             overlay={<CardTitle style={titleStyle} title="STYGGS"/>}
           >
             <div className="paperImageClass" style={imageStyleDiv}>
-              <img src="images/STYGGS.png" style={imageStyle}/>
+              <img src="images/STYGGS.png" alt="styggs" style={imageStyle}/>
             </div>
           </CardMedia>
           <CardText>
