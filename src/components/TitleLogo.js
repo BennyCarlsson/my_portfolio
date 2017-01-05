@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 
 class TitleLogo extends Component{
   titleClick(){
-    this.props.resetPage();
+    if(this.props.showPage){
+        this.props.resetPage();
+    }
   }
   render(){
     var titleId = "titleLogoDiv";

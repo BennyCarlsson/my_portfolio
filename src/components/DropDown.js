@@ -30,13 +30,24 @@ class DropDown extends Component{
    super(props);
    this.state = {
      slideIndex: 0,
+     animateTransitions: false,
    };
   }
   handleChange = (value) => {
+    if(this.state.slideIndex === 0 || value === 0){
+      this.setState({animateTransitions:false});
+    }
    this.setState({
      slideIndex: value,
    });
    this.props.showPage();
+  }
+  onTransitionEnd(){
+    if(this.state.slideIndex !== 0){
+      this.setState({animateTransitions:true});
+    }else{
+      this.props.resetPage();
+    }
   }
   render() {
     return (
@@ -45,8 +56,10 @@ class DropDown extends Component{
           slideIndex={this.state.slideIndex}
           />
         <SwipeableViews
+          animateTransitions={this.state.animateTransitions}
           index={this.state.slideIndex}
           onChangeIndex={this.handleChange}
+          onTransitionEnd={this.onTransitionEnd.bind(this)}
         >
           <div>
           </div>
