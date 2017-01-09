@@ -9,15 +9,15 @@ a{
   color:black;
 }
 body{
-    background-color: white;
     width: 100vw;
     max-width: 100vw;
     height: 100vh;
     max-height: 100vh;
     overflow: none;
+    background-color: #00838F;
 }
 #content{
-  background-color: #00838F;
+
 }
 .titleLogoDiv{
   font-size: 2em;
@@ -153,11 +153,22 @@ font-weight: 300;
   border-bottom-left-radius: 2px !important;
   border-bottom-right-radius: 2px !important;
 }
+#divBeforeProjectContent{
+  height:100vh;
+  width: 100%;
+}
+
 #projectContent{
-  margin-top: 5%;
+  position: relative;
+}
+.projectPaperDiv{
+  width: 100%;
+}
+.projectPaperDiv img{
+  width: 100%;
 }
 .projectDiv{
-  display: initial;
+  width: 40%;
 }
 #projectContent{
   animation-name: projectPapers;
@@ -174,6 +185,25 @@ font-weight: 300;
 #menyTabsDiv{
   text-align: center;
 }
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+    width: 40%;
+    margin: 5px;
+}
 .muidocs-icon-custom-github:before {
     content: "\e625";
 }
@@ -184,12 +214,14 @@ font-weight: 300;
   .mobileOnly{
     display: none;
   }
-/*  #titleLogoH1{
-    font-size: 2em;
-    font-size: 9vw;
-    margin-bottom: 33px;
-  }
-*/
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
 }
 @media only screen and (max-width: 767px) {
   /*#titleLogoH1{
@@ -201,10 +233,38 @@ font-weight: 300;
     display: none;
   }
   */
+
   .mobileOnly{
     display: block;
   }
   .desktopOnly{
       display: none;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;  /* remove scrollbar space */
+      background: transparent;  /* optional: just make scrollbar invisible */
+  }
+  /* optional: show position indicator in red */
+  ::-webkit-scrollbar-thumb {
+      background: #FF0000;
+  }
+  .flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .flex-item {
+      width: 100%;
+      margin: 5px;
   }
 }

@@ -3,20 +3,13 @@ Clean up old searchBar code..
 Fix About page
 Contact page
 Get pictures for projects.(webbappansade)
-fix warnings
 Mobile (first?)
 Create favicon
 Link to faviocon
-Title onClick remove focus from dropdown
-Title onClick reset dropdown and page
-Style input and title after onclick
-Style menu
 Rename DropDown to MenuItems
-Projects page
--papers
--animation
+Update project papers
 -----------------------------------------------In Progress
-
+Projects page
 -----------------------------------------------Done!
 Remove searchBar add menu!
 hide DropDown onclick
