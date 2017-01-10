@@ -160,9 +160,16 @@ font-weight: 300;
 
 #projectContent{
   position: relative;
+  margin-top: 5%;
+}
+.lastProjectCard{
+  margin-bottom: 30vh !important;
 }
 .projectPaperDiv{
   width: 100%;
+}
+.cardDiv{
+  height: 100%;
 }
 .projectPaperDiv img{
   width: 100%;
@@ -201,8 +208,8 @@ font-weight: 300;
 }
 
 .flex-item {
-    width: 40%;
-    margin: 5px;
+  width: 47%;
+  margin-bottom: 13px;
 }
 .muidocs-icon-custom-github:before {
     content: "\e625";

@@ -37,7 +37,7 @@ class Projects extends Component{
                 <BaraGodaNyheter/>
               </Paper>
             </div>
-            <div id="projectDiv3" className="projectDiv flex-item">
+            <div id="projectDiv3" className="lastProjectCard projectDiv flex-item">
               <Paper style={style} zDepth={4} className="projectPaperDiv">
                 <Styggs/>
               </Paper>
@@ -50,7 +50,7 @@ class Projects extends Component{
 class FlappyTable extends Component{
   render(){
     return(
-      <Card style={style}>
+      <Card style={style} className="cardDiv">
         <CardMedia
           overlay={<CardTitle style={titleStyle} title="Flappy Table"/>}
         >
@@ -58,7 +58,7 @@ class FlappyTable extends Component{
             <img src="images/foljmejhem.png" alt="följ mej hem" style={imageStyle}/>
           </div>
         </CardMedia>
-        <CardText>
+        <CardText className="CardTextDiv">
           FlappyTable was a fun project made by me and <a href="https://github.com/rs222kn">Richard</a>
         </CardText>
         <CardActions style={styleCardFooter}>
@@ -72,7 +72,7 @@ class FlappyTable extends Component{
 class FollowMeHomeCard extends Component{
   render(){
     return(
-      <Card style={style}>
+      <Card style={style} className="cardDiv">
         <CardMedia
           overlay={<CardTitle style={titleStyle} title="Follow Me Home"/>}
         >
@@ -80,7 +80,7 @@ class FollowMeHomeCard extends Component{
             <img src="images/foljmejhem.png" alt="följ mej hem" style={imageStyle}/>
           </div>
         </CardMedia>
-        <CardText>
+        <CardText className="cardTextDiv">
           Android application made 2015 as a school project. Use the gps in your phone to make sure you and your friend gets safely home!
           Android application made 2015 as a school project. Use the gps in your phone to make sure you and your friend gets safely home!
         </CardText>
@@ -95,7 +95,7 @@ class FollowMeHomeCard extends Component{
 class BaraGodaNyheter extends Component{
   render(){
     return(
-      <Card style={style}>
+      <Card style={style} className="cardDiv">
         <CardMedia
           overlay={<CardTitle style={titleStyle} title="Bara Goda Nyheter"/>}
         >
@@ -103,7 +103,7 @@ class BaraGodaNyheter extends Component{
             <img src="images/baragodanyheter.png" alt="Bara goda nyheter" style={imageStyle}/>
           </div>
         </CardMedia>
-        <CardText>
+        <CardText className="cardTextDiv">
           Android application made 2015 as a school project. Use the gps in your phone to make sure you and your friend gets safely home!
         </CardText>
         <CardActions style={styleCardFooter}>
@@ -117,7 +117,7 @@ class BaraGodaNyheter extends Component{
   class Styggs extends Component{
     render(){
       return(
-        <Card style={style}>
+        <Card style={style} className="cardDiv">
           <CardMedia
             overlay={<CardTitle style={titleStyle} title="STYGGS"/>}
           >
@@ -125,7 +125,7 @@ class BaraGodaNyheter extends Component{
               <img src="images/STYGGS.png" alt="styggs" style={imageStyle}/>
             </div>
           </CardMedia>
-          <CardText>
+          <CardText className="cardTextDiv">
             Android application made 2015 as a school project. Use the gps in your phone to make sure you and your friend gets safely home!
             Android application made 2015 as a school project. Use the gps in your phone to make sure you and your friend gets safely home!
             Android application made 2015 as a school project. Use the gps in your phone to make sure you and your friend gets safely home!
