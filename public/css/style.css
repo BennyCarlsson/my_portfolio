@@ -163,7 +163,7 @@ font-weight: 300;
   margin-top: 5%;
 }
 .lastProjectCard{
-  margin-bottom: 30vh !important;
+  margin-bottom: 50vh !important;
 }
 .projectPaperDiv{
   width: 100%;
@@ -180,6 +180,9 @@ font-weight: 300;
 #projectContent{
   animation-name: projectPapers;
   animation-duration: 2s;
+}
+.playstoreicon{
+  margin-bottom: -6px;
 }
 @keyframes projectPapers{
   from{

@@ -2,12 +2,13 @@
 Clean up old searchBar code..
 Fix About page
 Contact page
-Get pictures for projects.(webbappansade)
-Mobile (first?)
+Get pictures for projects
+Make images webbsuited
+Get potrait picture
+Mobile
 Create favicon
 Link to faviocon
 Rename DropDown to MenuItems
-Update project papers
 -----------------------------------------------In Progress
 Projects page
 -----------------------------------------------Done!
