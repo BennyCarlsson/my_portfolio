@@ -212,7 +212,7 @@ font-weight: 300;
 
 .flex-item {
   width: 47%;
-  margin-bottom: 13px;
+  margin-bottom: 33px;
 }
 .muidocs-icon-custom-github:before {
     content: "\e625";
@@ -275,6 +275,6 @@ font-weight: 300;
 
   .flex-item {
       width: 100%;
-      margin: 5px;
+      margin: 15px;
   }
 }

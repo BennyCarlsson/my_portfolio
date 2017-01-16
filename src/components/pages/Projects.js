@@ -38,9 +38,18 @@ class Projects extends Component{
                 <BaraGodaNyheter/>
               </Paper>
             </div>
-            <div id="projectDiv3" className="lastProjectCard projectDiv flex-item">
+            <div id="projectDiv3" className="projectDiv flex-item">
               <Paper style={style} zDepth={4} className="projectPaperDiv">
                 <Styggs/>
+              </Paper>
+            </div>
+            <div id="projectDiv4" className="lastProjectCard projectDiv flex-item">
+              <Paper style={style} zDepth={4} className="projectPaperDiv">
+                <BennyCarlsson/>
+              </Paper>
+            </div>
+            <div id="projectDiv5" className="lastProjectCard projectDiv flex-item">
+              <Paper style={style} zDepth={4} className="projectPaperDiv">
               </Paper>
             </div>
           </div>
@@ -61,7 +70,8 @@ class FlappyTable extends Component{
         </CardMedia>
         <CardText className="CardTextDiv">
           FlappyTable was a fun project made by <a href="https://github.com/rs222kn" target="_blank">Richard</a> and me during a 24hour hackaton in Kalmar 2016.
-          Our weapon of choice where React,Redux and old-fashioned HTML tables. 2500 table cells was used during this project and no ducks got hurt. React and HTML tables might not be te tool for creating a game but we were so preoccupied with whether we could, we didn't stop to thing if we should.
+          Our weapon of choice where React,Redux and old-fashioned HTML tables. 2500 table cells was used during this project and no ducks got hurt. React and HTML tables might not be te tool for creating a game but we were so preoccupied with whether we could,
+           we didnt stop to thing if we should.
         </CardText>
         <CardActions style={styleCardFooter}>
           <a href="https://github.com/BennyCarlsson/hackaton-2016" target="_blank"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
@@ -83,11 +93,11 @@ class FollowMeHomeCard extends Component{
           </div>
         </CardMedia>
         <CardText className="cardTextDiv">
-          Android application made 2015 as a school project. Use the gps in your phone to make sure you and your friend gets safely home!
-          Android application made 2015 as a school project. Use the gps in your phone to make sure you and your friend gets safely home!
+        School project made 2015 at Linnaeus University in Kalmar. An Android application made using Java and Android studio with small amount of php for backend with a MySQL database.
+        Use the gps in your phone to make sure you or your friends gets home safely! Available for Android free in the <a href="https://play.google.com/store/apps/details?id=com.my.abrownapple.individueltmjukvaruprojekt" target="_blank">Playstore</a>
         </CardText>
         <CardActions style={styleCardFooter}>
-          <a href="https://github.com/BennyCarlsson/my_portfolio" target="_blank"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
+          <i className="fa fa-github" aria-hidden="true"></i> <span className="disabledLink">Github</span>
           <a href="http://bennycarlsson.com/foljmejhem/" target="_blank"><i className="fa fa-globe" aria-hidden="true"></i> Website</a>
           <a href="https://play.google.com/store/apps/details?id=com.my.abrownapple.individueltmjukvaruprojekt" target="_blank"><Download className="playstoreicon"/>Playstore</a>
         </CardActions>
@@ -107,38 +117,59 @@ class BaraGodaNyheter extends Component{
           </div>
         </CardMedia>
         <CardText className="cardTextDiv">
-          Android application made 2015 as a school project. Use the gps in your phone to make sure you and your friend gets safely home!
+          BaraGodaNyheter (OnlyGoodNews) is a PHP project made at Linnaeus University in Kalmar 2014. With the current media only reporting all he horrible stuff in the world
+          its easy to se pass all the beauty in the world and all the wonderful people living in it. I would love to se more news focusing on all the good things happening in the world.
+          On the admin page its also possible to write/edit/delete Articles, post youtube videos, upload images, create and handle authors accounts, handle pending articles and much more.
         </CardText>
         <CardActions style={styleCardFooter}>
-          <a href="https://github.com/BennyCarlsson/my_portfolio" target="_blank"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
+          <a href="https://github.com/BennyCarlsson/php-baragodanyheter" target="_blank"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
+          <a href="http://bennycarlsson.com/baragodanyheter/" target="_blank"><i className="fa fa-globe" aria-hidden="true"></i> Website</a>
+        </CardActions>
+      </Card>
+    )
+  }
+}
+class Styggs extends Component{
+  render(){
+    return(
+      <Card style={style} className="cardDiv">
+        <CardMedia
+          overlay={<CardTitle style={titleStyle} title="STYGGS"/>}
+        >
+          <div className="paperImageClass" style={imageStyleDiv}>
+            <img src="images/STYGGS.png" alt="styggs" style={imageStyle}/>
+          </div>
+        </CardMedia>
+        <CardText className="cardTextDiv">
+          PHP project made at Linnaeus University in Kalmar 2014 with a friend. Its a text base RPG game. Register and try it out or just use the test account Username: testperson Password: password
+        </CardText>
+        <CardActions style={styleCardFooter}>
+          <a href="https://github.com/BennyCarlsson/php-STYGGS" target="_blank"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
           <a href="http://bennycarlsson.com/foljmejhem/" target="_blank"><i className="fa fa-globe" aria-hidden="true"></i> Website</a>
         </CardActions>
       </Card>
     )
   }
 }
-  class Styggs extends Component{
-    render(){
-      return(
-        <Card style={style} className="cardDiv">
-          <CardMedia
-            overlay={<CardTitle style={titleStyle} title="STYGGS"/>}
-          >
-            <div className="paperImageClass" style={imageStyleDiv}>
-              <img src="images/STYGGS.png" alt="styggs" style={imageStyle}/>
-            </div>
-          </CardMedia>
-          <CardText className="cardTextDiv">
-            Android application made 2015 as a school project. Use the gps in your phone to make sure you and your friend gets safely home!
-            Android application made 2015 as a school project. Use the gps in your phone to make sure you and your friend gets safely home!
-            Android application made 2015 as a school project. Use the gps in your phone to make sure you and your friend gets safely home!
-          </CardText>
-          <CardActions style={styleCardFooter}>
-            <a href="https://github.com/BennyCarlsson/my_portfolio" target="_blank"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
-            <a href="http://bennycarlsson.com/foljmejhem/" target="_blank"><i className="fa fa-globe" aria-hidden="true"></i> Website</a>
-          </CardActions>
-        </Card>
-      )
-    }
+class BennyCarlsson extends Component{
+  render(){
+    return(
+      <Card style={style} className="cardDiv">
+        <CardMedia
+          overlay={<CardTitle style={titleStyle} title="BennyCarlsson.com"/>}
+        >
+          <div className="paperImageClass" style={imageStyleDiv}>
+            <img src="images/benny_carlsson_website.png" alt="styggs" style={imageStyle}/>
+          </div>
+        </CardMedia>
+        <CardText className="cardTextDiv">
+          Check out the code for this website that I created using React.js
+        </CardText>
+        <CardActions style={styleCardFooter}>
+          <a href="https://github.com/BennyCarlsson/my_portfolio" target="_blank"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
+        </CardActions>
+      </Card>
+    )
   }
+}
 export default Projects;
