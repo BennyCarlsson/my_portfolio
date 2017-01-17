@@ -10,13 +10,12 @@ Create favicon
 Link to faviocon
 Rename DropDown to MenuItems
 Socialmedia view
+Fix styggs datbase events
 -----------------------------------------------In Progress
 Projects page
 ' in didn't flappy table its donts
 css for disabled link to github + hover text
 baragodanyheter link
-styggs link and hosting
-sista länken till hemsidan?
 -----------------------------------------------Done!
 Remove searchBar add menu!
 hide DropDown onclick

@@ -97,7 +97,7 @@ class FollowMeHomeCard extends Component{
         Use the gps in your phone to make sure you or your friends gets home safely! Available for Android free in the <a href="https://play.google.com/store/apps/details?id=com.my.abrownapple.individueltmjukvaruprojekt" target="_blank">Playstore</a>
         </CardText>
         <CardActions style={styleCardFooter}>
-          <i className="fa fa-github" aria-hidden="true"></i> <span className="disabledLink">Github</span>
+          <i className="fa fa-github tooltip" aria-hidden="true"></i> <span className="disabledLink">Github</span><span className="tooltiptext">Tooltip text</span>
           <a href="http://bennycarlsson.com/foljmejhem/" target="_blank"><i className="fa fa-globe" aria-hidden="true"></i> Website</a>
           <a href="https://play.google.com/store/apps/details?id=com.my.abrownapple.individueltmjukvaruprojekt" target="_blank"><Download className="playstoreicon"/>Playstore</a>
         </CardActions>
@@ -145,7 +145,7 @@ class Styggs extends Component{
         </CardText>
         <CardActions style={styleCardFooter}>
           <a href="https://github.com/BennyCarlsson/php-STYGGS" target="_blank"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
-          <a href="http://bennycarlsson.com/foljmejhem/" target="_blank"><i className="fa fa-globe" aria-hidden="true"></i> Website</a>
+          <a href="http://bennycarlsson.com/styggs/" target="_blank"><i className="fa fa-globe" aria-hidden="true"></i> Website</a>
         </CardActions>
       </Card>
     )
@@ -156,7 +156,7 @@ class BennyCarlsson extends Component{
     return(
       <Card style={style} className="cardDiv">
         <CardMedia
-          overlay={<CardTitle style={titleStyle} title="BennyCarlsson.com"/>}
+          overlay={<CardTitle style={titleStyle} title="bennycarlsson.com"/>}
         >
           <div className="paperImageClass" style={imageStyleDiv}>
             <img src="images/benny_carlsson_website.png" alt="styggs" style={imageStyle}/>

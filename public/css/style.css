@@ -217,6 +217,26 @@ font-weight: 300;
 .muidocs-icon-custom-github:before {
     content: "\e625";
 }
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltiptext {
+   visibility: hidden;
+   width: 120px;
+   background-color: black;
+   color: #fff;
+   text-align: center;
+   padding: 5px 0;
+   border-radius: 6px;
+   position: absolute;
+   z-index: 1;
+ }
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
 .mobileOnly{
   display: none;
 }
