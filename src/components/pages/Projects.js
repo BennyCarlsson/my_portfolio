@@ -71,7 +71,7 @@ class FlappyTable extends Component{
         <CardText className="CardTextDiv">
           FlappyTable was a fun project made by <a href="https://github.com/rs222kn" target="_blank">Richard</a> and me during a 24hour hackaton in Kalmar 2016.
           Our weapon of choice where React,Redux and old-fashioned HTML tables. 2500 table cells was used during this project and no ducks got hurt. React and HTML tables might not be te tool for creating a game but we were so preoccupied with whether we could,
-           we didnt stop to thing if we should.
+           we didn't stop to thing if we should.
         </CardText>
         <CardActions style={styleCardFooter}>
           <a href="https://github.com/BennyCarlsson/hackaton-2016" target="_blank"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
@@ -97,7 +97,7 @@ class FollowMeHomeCard extends Component{
         Use the gps in your phone to make sure you or your friends gets home safely! Available for Android free in the <a href="https://play.google.com/store/apps/details?id=com.my.abrownapple.individueltmjukvaruprojekt" target="_blank">Playstore</a>
         </CardText>
         <CardActions style={styleCardFooter}>
-          <i className="fa fa-github tooltip" aria-hidden="true"></i> <span className="disabledLink">Github</span><span className="tooltiptext">Tooltip text</span>
+          <span className="disabledLink"><i className="fa fa-github tooltip" aria-hidden="true"></i> Github</span><span className="tooltiptext">Not on github</span>
           <a href="http://bennycarlsson.com/foljmejhem/" target="_blank"><i className="fa fa-globe" aria-hidden="true"></i> Website</a>
           <a href="https://play.google.com/store/apps/details?id=com.my.abrownapple.individueltmjukvaruprojekt" target="_blank"><Download className="playstoreicon"/>Playstore</a>
         </CardActions>
@@ -118,8 +118,8 @@ class BaraGodaNyheter extends Component{
         </CardMedia>
         <CardText className="cardTextDiv">
           BaraGodaNyheter (OnlyGoodNews) is a PHP project made at Linnaeus University in Kalmar 2014. With the current media only reporting all he horrible stuff in the world
-          its easy to se pass all the beauty in the world and all the wonderful people living in it. I would love to se more news focusing on all the good things happening in the world.
-          On the admin page its also possible to write/edit/delete Articles, post youtube videos, upload images, create and handle authors accounts, handle pending articles and much more.
+          it's easy to se pass all the beauty in the world and all the wonderful people living in it. I would love to se more news focusing on all the good things happening in the world.
+          On the admin page it's also possible to write/edit/delete Articles, post youtube videos, upload images, create and handle authors accounts, handle pending articles and much more.
         </CardText>
         <CardActions style={styleCardFooter}>
           <a href="https://github.com/BennyCarlsson/php-baragodanyheter" target="_blank"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
@@ -141,7 +141,7 @@ class Styggs extends Component{
           </div>
         </CardMedia>
         <CardText className="cardTextDiv">
-          PHP project made at Linnaeus University in Kalmar 2014 with a friend. Its a text base RPG game. Register and try it out or just use the test account Username: testperson Password: password
+          PHP project made at Linnaeus University in Kalmar 2014 with a friend. It's a text base RPG game. Register and try it out or just use the test account Username: testperson Password: password
         </CardText>
         <CardActions style={styleCardFooter}>
           <a href="https://github.com/BennyCarlsson/php-STYGGS" target="_blank"><i className="fa fa-github" aria-hidden="true"></i> Github</a>

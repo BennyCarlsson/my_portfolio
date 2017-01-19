@@ -225,16 +225,24 @@ font-weight: 300;
 .tooltiptext {
    visibility: hidden;
    width: 120px;
-   background-color: black;
-   color: #fff;
+   background-color: rgba(56, 54, 54, 0.62);
+   color: rgba(255, 255, 255, 0.86);
    text-align: center;
    padding: 5px 0;
    border-radius: 6px;
    position: absolute;
    z-index: 1;
+   margin-left: -197px;
  }
-.tooltip:hover .tooltiptext {
+ .disabledLink{
+   color:rgba(86, 83, 83, 0.870588);
+ }
+ .disabledLink:hover{
+   cursor: default;
+ }
+.disabledLink:hover + .tooltiptext {
     visibility: visible;
+    cursor: default;
 }
 
 .mobileOnly{
@@ -263,7 +271,10 @@ font-weight: 300;
     display: none;
   }
   */
-
+  .disabledLink:hover + .tooltiptext {
+      visibility: hidden;;
+      cursor: default;
+  }
   .mobileOnly{
     display: block;
   }
