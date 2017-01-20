@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import {GridList, GridTile} from 'material-ui/GridList';
 import Menu from './components/Menu.js';
 
 import injectTapEventPlugin from 'react-tap-event-plugin';

@@ -1,6 +1,6 @@
 -----------------------------------------------Todo
 Clean up old searchBar code..
-About page
+
 Contact page
 Get pictures for projects
 Get potrait picture
@@ -11,7 +11,7 @@ Socialmedia view
 
 -----------------------------------------------In Progress
 Projects page
-
+About page
 
 -----------------------------------------------Done!
 Remove searchBar add menu!

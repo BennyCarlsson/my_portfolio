@@ -90,7 +90,7 @@ class MyTabs extends Component{
           value={this.props.slideIndex}
         >
           <Tab style={styles.displayNone} value={0} />
-          <Tab style={styles.tab} label="ABOUT" value={1} />
+          <Tab style={styles.tab} label="ME" value={1} />
           <Tab style={styles.tab} label="PROJECTS" value={2} />
           <Tab style={styles.tab} label="CONTACT" value={3} />
         </Tabs>

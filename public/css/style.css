@@ -244,7 +244,52 @@ font-weight: 300;
     visibility: visible;
     cursor: default;
 }
+#aboutContentDiv{
+  text-align: center;
 
+}
+#paperContent{
+  margin: auto;
+  margin-top: 50px;
+  height: 65vh;
+  width: 95vw;
+  position: relative;
+}
+#listAbout{
+  width: 31vw;
+}
+#paperAvatar{
+  width: 20vw;
+  height: 20vw;
+  display: inline-block;
+  position: absolute;
+  right:13px;
+  top: 13px
+}
+#avatarImage{
+  height: 100% !important;
+  width: 100% !important;
+}
+#aboutTextDiv{
+  position: absolute;
+  width: 57vw;
+  height: 100%;
+  top:3%;
+  left: 3%;
+  text-align: left;
+}
+#socialMediaAbout{
+  position: absolute;
+  right: 1%;
+  bottom: 1%;
+  text-align: right;
+    width: 100%;
+}
+#socialMediaAbout a{
+  margin: 3px;
+  font-size: 3em;
+  color: #00838f;
+}
 .mobileOnly{
   display: none;
 }
@@ -252,14 +297,36 @@ font-weight: 300;
   .mobileOnly{
     display: none;
   }
-::-webkit-scrollbar {
+  ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
-}
-/* optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
+  }
+  /* optional: show position indicator in red */
+  ::-webkit-scrollbar-thumb {
     background: #FF0000;
-}
+  }
+  #projectContent{
+  margin-top: 0px; 
+  }
+  #paperContent{
+    margin: auto;
+    height: 84vh;
+    width: 98vw;
+    position: relative;
+    overflow: auto;
+  }
+  #paperAvatar{
+    width: 20vw;
+    height: 20vw;
+    display: inline-block;
+    position: absolute;
+    right:3px;
+    top: 3px
+  }
+  #listAbout{
+    width: 100%;
+  }
+
 }
 @media only screen and (max-width: 767px) {
   /*#titleLogoH1{
@@ -271,6 +338,17 @@ font-weight: 300;
     display: none;
   }
   */
+  #aboutTextDiv{
+    position: absolute;
+    width: 99%;
+    height: 100%;
+    top: 14vw;
+    left: 1%;
+    text-align: left;
+  }
+  #socialMediaAbout{
+    position: inherit;
+  }
   .disabledLink:hover + .tooltiptext {
       visibility: hidden;;
       cursor: default;
@@ -305,7 +383,6 @@ font-weight: 300;
   }
 
   .flex-item {
-      width: 100%;
-      margin: 15px;
+      width: 98vw;
   }
 }
