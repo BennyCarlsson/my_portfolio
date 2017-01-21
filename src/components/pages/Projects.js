@@ -24,32 +24,32 @@ class Projects extends Component{
         <div id="divBeforeProjectContent">
           <div id="projectContent" className="flex-container">
             <div id="projectDiv0" className="projectDiv flex-item">
-              <Paper style={style} zDepth={4} className="projectPaperDiv">
+              <Paper style={style} zDepth={2} className="projectPaperDiv">
                 <FlappyTable/>
               </Paper>
             </div>
             <div id="projectDiv1" className="projectDiv flex-item">
-              <Paper style={style} zDepth={4} className="projectPaperDiv">
+              <Paper style={style} zDepth={2} className="projectPaperDiv">
                 <FollowMeHomeCard/>
               </Paper>
             </div>
             <div id="projectDiv2" className="projectDiv flex-item">
-              <Paper style={style} zDepth={4} className="projectPaperDiv">
+              <Paper style={style} zDepth={2} className="projectPaperDiv">
                 <BaraGodaNyheter/>
               </Paper>
             </div>
             <div id="projectDiv3" className="projectDiv flex-item">
-              <Paper style={style} zDepth={4} className="projectPaperDiv">
+              <Paper style={style} zDepth={2} className="projectPaperDiv">
                 <Styggs/>
               </Paper>
             </div>
             <div id="projectDiv4" className="lastProjectCard projectDiv flex-item">
-              <Paper style={style} zDepth={4} className="projectPaperDiv">
+              <Paper style={style} zDepth={2} className="projectPaperDiv">
                 <BennyCarlsson/>
               </Paper>
             </div>
             <div id="projectDiv5" className="lastProjectCard projectDiv flex-item">
-              <Paper style={style} zDepth={4} className="projectPaperDiv">
+              <Paper style={style} zDepth={2} className="projectPaperDiv">
               </Paper>
             </div>
           </div>
@@ -65,7 +65,7 @@ class FlappyTable extends Component{
           overlay={<CardTitle style={titleStyle} title="Flappy Table"/>}
         >
           <div className="paperImageClass" style={imageStyleDiv}>
-            <img src="images/Flappytable.png" alt="flappy table project" style={imageStyle}/>
+            <img src="images/flappytable.PNG" alt="flappy table project" style={imageStyle}/>
           </div>
         </CardMedia>
         <CardText className="CardTextDiv">
@@ -159,7 +159,7 @@ class BennyCarlsson extends Component{
           overlay={<CardTitle style={titleStyle} title="bennycarlsson.com"/>}
         >
           <div className="paperImageClass" style={imageStyleDiv}>
-            <img src="images/benny_carlsson_website.png" alt="styggs" style={imageStyle}/>
+            <img src="images/benny_carlsson_website.PNG" alt="BennyCarlsson.com" style={imageStyle}/>
           </div>
         </CardMedia>
         <CardText className="cardTextDiv">

@@ -4,7 +4,7 @@ Clean up old searchBar code..
 Contact page
 Get pictures for projects
 Get potrait picture
-Mobile
+Mobile Better Title size and menu icons
 Link to faviocon
 Rename DropDown to MenuItems
 Socialmedia view

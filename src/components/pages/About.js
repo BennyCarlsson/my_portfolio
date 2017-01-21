@@ -9,9 +9,9 @@ class About extends Component{
     this.state = {secondsSinceMyBirth:0, yearsSinceMyBirth:0};
   }
   setTime(){
-    var time = new Date(1993, 4, 27, 0, 0, 0, 0);
-    //console.log(time);
-    this.setState({secondsSinceMyBirth:time.getSeconds()});
+    var d = new Date();
+    var seconds = Math.round(d.getTime() / 1000);
+    this.setState({secondsSinceMyBirth:seconds});
   }
   componentWillMount(){
   	this.setTime();
