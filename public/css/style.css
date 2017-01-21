@@ -252,7 +252,7 @@ font-weight: 300;
   margin: auto;
   margin-top: 50px;
   height: 65vh;
-  width: 95vw;
+  width: 80vw;
   position: relative;
 }
 #listAbout{
@@ -306,7 +306,7 @@ font-weight: 300;
     background: #FF0000;
   }
   #projectContent{
-  margin-top: 0px; 
+  margin-top: 0px;
   }
   #paperContent{
     margin: auto;
@@ -320,8 +320,8 @@ font-weight: 300;
     height: 20vw;
     display: inline-block;
     position: absolute;
-    right:3px;
-    top: 3px
+    right:35px;
+    top: 35px
   }
   #listAbout{
     width: 100%;
@@ -338,6 +338,15 @@ font-weight: 300;
     display: none;
   }
   */
+  #paperAvatar{
+    width: 20vw;
+    height: 20vw;
+    display: inline-block;
+    position: absolute;
+    right:35px;
+    top: 25px;
+    box-shadow: none !important;
+  }
   #aboutTextDiv{
     position: absolute;
     width: 99%;
