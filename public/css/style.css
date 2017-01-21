@@ -14,7 +14,10 @@ body{
     height: 100vh;
     max-height: 100vh;
     overflow: none;
-    background-color: #00838F;
+    background-color: #FAFAFE;
+}
+h1,h2,h3{
+  color: #00838f;
 }
 #content{
 
@@ -68,6 +71,7 @@ color: white;
 text-decoration: none;
 font-family: 'Roboto', sans-serif;
 font-weight: 300;
+color: #00838f;
 }
 @keyframes titleLogoh1ToBig{
   from{
@@ -170,6 +174,7 @@ font-weight: 300;
 }
 .cardDiv{
   height: 100%;
+  background-color: #F5F5F5 !important;
 }
 .projectPaperDiv img{
   width: 100%;
@@ -194,6 +199,7 @@ font-weight: 300;
 }
 #menyTabsDiv{
   text-align: center;
+  color: #FAFAFE
 }
 .flex-container {
   padding: 0;
@@ -249,6 +255,8 @@ font-weight: 300;
 
 }
 #paperContent{
+  background-color: #FAFAFE !important;
+  box-shadow: none !important;
   margin: auto;
   margin-top: 50px;
   height: 65vh;
@@ -338,6 +346,16 @@ font-weight: 300;
     display: none;
   }
   */
+#menuDiv{
+    margin-top: 23px;
+}
+  .menuIcons svg{
+    color:#00838f !important;
+  }
+  .menuIconsActive svg{
+    color:#00838f !important;
+    border-bottom: 1px solid #00838f;
+  }
   #paperAvatar{
     width: 20vw;
     height: 20vw;

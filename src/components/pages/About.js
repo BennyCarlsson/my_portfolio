@@ -10,7 +10,7 @@ class About extends Component{
   }
   setTime(){
     var time = new Date(1993, 4, 27, 0, 0, 0, 0);
-    console.log(time);
+    //console.log(time);
     this.setState({secondsSinceMyBirth:time.getSeconds()});
   }
   componentWillMount(){

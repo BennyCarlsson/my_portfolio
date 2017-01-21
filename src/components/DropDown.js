@@ -17,9 +17,17 @@ const styles = {
   },
   tab: {
       fontSize: 24,
+      backgroundColor:"#FAFAFE",
+      color:"#00838f",
+      fontColor:"#00838f",
+  },activeTab:{
+    fontSize: 24,
+    backgroundColor:"#FAFAFE",
+    color:"#00838f",
+    textDecoration:"underline",
   },
   tabs: {
-    backgroundColor:"#00838F",
+    backgroundColor:"#FAFAFE",
   },
   displayNone:{
     display:"none",
@@ -85,27 +93,27 @@ class MyTabs extends Component{
         <span className="desktopOnly">
         <Tabs
           inkBarStyle={{display: 'none'}}
-          tabItemContainerStyle={{background: '#00838F'}}
+          tabItemContainerStyle={styles.tabs}
           onChange={this.props.handleChange}
           value={this.props.slideIndex}
         >
           <Tab style={styles.displayNone} value={0} />
-          <Tab style={styles.tab} label="ME" value={1} />
-          <Tab style={styles.tab} label="PROJECTS" value={2} />
-          <Tab style={styles.tab} label="CONTACT" value={3} />
+          <Tab style={this.props.slideIndex === 1 ? styles.activeTab:styles.tab} label="ME" value={1} />
+          <Tab style={this.props.slideIndex === 2 ? styles.activeTab:styles.tab} label="PROJECTS" value={2} />
+          <Tab style={this.props.slideIndex === 3 ? styles.activeTab:styles.tab} label="CONTACT" value={3} />
         </Tabs>
         </span>
         <span className="mobileOnly">
         <Tabs
           inkBarStyle={{display: 'none'}}
-          tabItemContainerStyle={{background: '#00838F'}}
+          tabItemContainerStyle={styles.tab}
           onChange={this.props.handleChange}
           value={this.props.slideIndex}
         >
           <Tab style={styles.displayNone} value={0} />
-          <Tab style={styles.tab} icon={<Person/>} value={1} />
-          <Tab style={styles.tab} icon={<Folder/>} value={2} />
-          <Tab style={styles.tab} icon={<Email/>} value={3} />
+          <Tab style={styles.tab} icon={<span className={this.props.slideIndex === 1 ?"menuIconsActive":"menuIcons"}><Person/></span>} value={1} />
+          <Tab style={styles.tab} icon={<span className={this.props.slideIndex === 2 ?"menuIconsActive":"menuIcons"}> <Folder/></span>} value={2} />
+          <Tab style={styles.tab} icon={<span className={this.props.slideIndex === 3 ?"menuIconsActive":"menuIcons"}> <Email/></span>} value={3} />
         </Tabs>
         </span>
       </div>
