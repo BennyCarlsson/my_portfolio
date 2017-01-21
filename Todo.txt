@@ -12,6 +12,7 @@ Socialmedia view
 -----------------------------------------------In Progress
 Projects page
 About page
+I'm 
 
 -----------------------------------------------Done!
 Remove searchBar add menu!

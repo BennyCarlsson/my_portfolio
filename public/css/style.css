@@ -271,8 +271,7 @@ color: #00838f;
   height: 20vw;
   display: inline-block;
   position: absolute;
-  right:13px;
-  top: 13px
+  right:-60px;
 }
 #avatarImage{
   height: 100% !important;
@@ -329,7 +328,7 @@ color: #00838f;
     display: inline-block;
     position: absolute;
     right:35px;
-    top: 35px
+    top: 35px;
   }
   #listAbout{
     width: 100%;
