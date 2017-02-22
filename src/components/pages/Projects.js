@@ -159,7 +159,7 @@ class BennyCarlsson extends Component{
           overlay={<CardTitle style={titleStyle} title="bennycarlsson.com"/>}
         >
           <div className="paperImageClass" style={imageStyleDiv}>
-            <img src="images/benny_carlsson_website.PNG" alt="BennyCarlsson.com" style={imageStyle}/>
+            <img src="images/benny_carlsson_website.JPG" alt="BennyCarlsson.com" style={imageStyle}/>
           </div>
         </CardMedia>
         <CardText className="cardTextDiv">

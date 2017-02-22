@@ -1,20 +1,22 @@
 -----------------------------------------------Todo
-Clean up old searchBar code..
 
 Contact page
-Get pictures for projects
-Get potrait picture
 Mobile Better Title size and menu icons
-Link to faviocon
-Rename DropDown to MenuItems
 Socialmedia view
+Website image in projects
+w3c validation
 
+Clean up old searchBar code..
+Rename DropDown to MenuItems..
 -----------------------------------------------In Progress
 Projects page
 About page
-I'm 
+I'm
 
 -----------------------------------------------Done!
+faviocon
+Get pictures for projects
+Get potrait picture
 Remove searchBar add menu!
 hide DropDown onclick
 Onclick on dropdown

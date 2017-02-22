@@ -9,7 +9,7 @@ class About extends Component{
     this.state = {secondsSinceMyBirth:0, yearsSinceMyBirth:0};
   }
   setTime(){
-    var birthday = new Date(1993,3,27,8,0,0).getTime();
+    var birthday = new Date(1993,3,27,9,32,0).getTime();
     var today = new Date().getTime();
     var time = (today/1000) - (birthday/1000);
     var years = Math.floor(time / 31536000);
@@ -33,11 +33,11 @@ class About extends Component{
             </Paper>
             <div id="aboutTextDiv">
             <h2>Hello World!</h2>
-              <p>My name is Bennny Carlsson
+              <p>Greetings, my name is Bennny Carlsson and
               I was born about {this.state.secondsSinceMyBirth} seconds ago (~{this.state.yearsSinceMyBirth}years )
-              in a small town called Nässjö in Sweden. I love programming and everything that has to do with software development.
+              in a small town called Nässjö in Sweden. I love programming and everything that has to do with technology, the internet and programming.
               Moved to Kalmar 2012 to studie software development at Linnaeus University. During my free time I try to spend as
-              much time writing code and other cool stuff to show of on the internet. When Im </p>
+              much time possible writing code and other cool stuff to show of on the internet.</p>
 
               <Chips/>
               <SocialMediaPhone/>

@@ -272,6 +272,7 @@ color: #00838f;
   display: inline-block;
   position: absolute;
   right:-60px;
+  box-shadow: none !important;
 }
 #avatarImage{
   height: 100% !important;
@@ -290,12 +291,46 @@ color: #00838f;
   right: 1%;
   bottom: 1%;
   text-align: right;
-    width: 100%;
+  width: 100%;
 }
 #socialMediaAbout a{
   margin: 3px;
   font-size: 3em;
   color: #00838f;
+}
+#socialMediaAbout a:hover{
+  color: #025e67;
+}
+#contactContent{
+  position: relative;
+  color: black;
+  height: 100vh;
+}
+#contactdiv{
+  padding: 7%;
+}
+#contactContent img{
+  position: absolute;
+  height: auto;
+  width: 100vh;
+  left: 10px;
+  bottom: 11vh;
+}
+#mailtag{
+  color: #00838f;
+  text-decoration: none;
+  color: #00838f;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 131%;
+}
+#socialMediaContact a{
+  margin: 15px;
+  font-size: 7em;
+  color: #00838f;
+}
+#socialMediaContact a:hover{
+  color: #025e67;
 }
 .mobileOnly{
   display: none;
