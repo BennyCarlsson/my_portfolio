@@ -71,7 +71,7 @@ class FlappyTable extends Component{
         <CardText className="CardTextDiv">
           FlappyTable was a fun project made by <a href="https://github.com/rs222kn" target="_blank">Richard</a> and me during a 24hour hackaton in Kalmar 2016.
           Our weapon of choice where React,Redux and old-fashioned HTML tables. 2500 table cells was used during this project and no ducks got hurt. React and HTML tables might not be te tool for creating a game but we were so preoccupied with whether we could,
-           we didn't stop to thing if we should.
+           we didn't stop to think if we should.
         </CardText>
         <CardActions style={styleCardFooter}>
           <a href="https://github.com/BennyCarlsson/hackaton-2016" target="_blank"><i className="fa fa-github" aria-hidden="true"></i> Github</a>

@@ -312,9 +312,10 @@ color: #00838f;
 #contactContent img{
   position: absolute;
   height: auto;
-  width: 100vh;
-  left: 10px;
-  bottom: 11vh;
+  width: 50vw;
+  left: 14px;
+  bottom: 13vh;
+  z-index: -1;
 }
 #mailtag{
   color: #00838f;
@@ -368,6 +369,14 @@ color: #00838f;
   #listAbout{
     width: 100%;
   }
+  #contactContent img{
+    position: absolute;
+    height: auto;
+    width: 80vw;
+    left: 8px;
+    bottom: 10vh;
+    z-index: -1;
+  }
 
 }
 @media only screen and (max-width: 767px) {
@@ -409,6 +418,17 @@ color: #00838f;
   }
   #socialMediaAbout{
     position: inherit;
+  }
+  #mailtag{
+    font-size: 90%;
+  }
+  #contactContent img{
+    position: absolute;
+    height: auto;
+    width: 99vw;
+    left: 0px;
+    bottom: 10vh;
+    z-index: -1;
   }
   .disabledLink:hover + .tooltiptext {
       visibility: hidden;;

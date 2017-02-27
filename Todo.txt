@@ -1,19 +1,18 @@
 -----------------------------------------------Todo
-
-Contact page
-Mobile Better Title size and menu icons
-Socialmedia view
-Website image in projects
-w3c validation
-
+github link in contact
+google analytics
 Clean up old searchBar code..
 Rename DropDown to MenuItems..
 -----------------------------------------------In Progress
+
+
+-----------------------------------------------Done!
+Socialmedia view
 Projects page
 About page
 I'm
-
------------------------------------------------Done!
+Contact page
+Website image in projects
 faviocon
 Get pictures for projects
 Get potrait picture
