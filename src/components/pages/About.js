@@ -36,8 +36,8 @@ class About extends Component{
               <p>Greetings, my name is Bennny Carlsson and
               I was born about {this.state.secondsSinceMyBirth} seconds ago (~{this.state.yearsSinceMyBirth}years )
               in a small town called Nässjö in Sweden. I love programming and everything that has to do with technology, the internet and writing code.
-              Moved to Kalmar 2012 to studie software development at Linnaeus University and now I live in small town close to Växjö working full time writing java. During my free time I try to spend as
-              much time possible writing code and other cool stuff to show of on the internet.</p>
+              Moved to Kalmar 2012 to study software development at Linnaeus University and now I live in small town close to Växjö working full time writing java. During my free time I try to spend as
+              much time possible writing code and other cool stuff to show off on the internet.</p>
 
               <Chips/>
               <SocialMediaPhone/>
