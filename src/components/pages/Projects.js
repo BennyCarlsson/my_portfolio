@@ -65,7 +65,7 @@ class FlappyTable extends Component{
           overlay={<CardTitle style={titleStyle} title="Flappy Table"/>}
         >
           <div className="paperImageClass" style={imageStyleDiv}>
-            <img src="images/flappytable.PNG" alt="flappy table project" style={imageStyle}/>
+            <img src="images/flappytable.jpg" alt="flappy table project" style={imageStyle}/>
           </div>
         </CardMedia>
         <CardText className="CardTextDiv">
@@ -89,7 +89,7 @@ class FollowMeHomeCard extends Component{
           overlay={<CardTitle style={titleStyle} title="Follow Me Home"/>}
         >
           <div className="paperImageClass" style={imageStyleDiv}>
-            <img src="images/foljmejhem.png" alt="följ mej hem" style={imageStyle}/>
+            <img src="images/foljmejhem.jpg" alt="följ mej hem" style={imageStyle}/>
           </div>
         </CardMedia>
         <CardText className="cardTextDiv">
@@ -113,7 +113,7 @@ class BaraGodaNyheter extends Component{
           overlay={<CardTitle style={titleStyle} title="Bara Goda Nyheter"/>}
         >
           <div className="paperImageClass" style={imageStyleDiv}>
-            <img src="images/baragodanyheter.png" alt="Bara goda nyheter" style={imageStyle}/>
+            <img src="images/baragodanyheter.jpg" alt="Bara goda nyheter" style={imageStyle}/>
           </div>
         </CardMedia>
         <CardText className="cardTextDiv">
@@ -137,7 +137,7 @@ class Styggs extends Component{
           overlay={<CardTitle style={titleStyle} title="STYGGS"/>}
         >
           <div className="paperImageClass" style={imageStyleDiv}>
-            <img src="images/STYGGS.png" alt="styggs" style={imageStyle}/>
+            <img src="images/STYGGS.jpg" alt="styggs" style={imageStyle}/>
           </div>
         </CardMedia>
         <CardText className="cardTextDiv">
@@ -159,7 +159,7 @@ class BennyCarlsson extends Component{
           overlay={<CardTitle style={titleStyle} title="bennycarlsson.com"/>}
         >
           <div className="paperImageClass" style={imageStyleDiv}>
-            <img src="images/benny_carlsson_website.JPG" alt="BennyCarlsson.com" style={imageStyle}/>
+            <img src="images/benny_carlsson_website.jpg" alt="BennyCarlsson.com" style={imageStyle}/>
           </div>
         </CardMedia>
         <CardText className="cardTextDiv">
