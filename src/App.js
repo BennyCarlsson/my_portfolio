@@ -1,35 +1,27 @@
-import React, { Component } from 'react';
-import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import Menu from './components/Menu.js';
+import React, { Component } from "react"
+import Menu from "./components/Menu.js"
+import MuiThemeProvider from "material-ui/styles/MuiThemeProvider"
 
-import injectTapEventPlugin from 'react-tap-event-plugin';
-
-class Index extends Component{
+class Index extends Component {
   render() {
     return (
       <div id="app">
-      <div id="content">
-            <div ref="searchBarDivRef">
-            <Menu/>
-            </div>
+        <div id="content">
+          <div ref="searchBarDivRef">
+            <Menu />
+          </div>
+        </div>
       </div>
-      </div>
-    );
+    )
   }
 }
 class App extends Component {
-  getChildContext() {
-    injectTapEventPlugin();
-    return { muiTheme: getMuiTheme(baseTheme) };
-  }
-  render(){
-    return(
-      <Index/>
-    );
+  render() {
+    return (
+      <MuiThemeProvider>
+        <Index />
+      </MuiThemeProvider>
+    )
   }
 }
-App.childContextTypes = {
-  muiTheme: React.PropTypes.object.isRequired,
-};
-export default App;
+export default App
