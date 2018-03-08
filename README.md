@@ -1,3 +1,3 @@
-work in progress..
+# My Portfolio
 
-Will be be published on [BennyCarlsson.com](http://bennycarlsson.com/)
+## Check it out: [BennyCarlsson.com](http://bennycarlsson.com/)
