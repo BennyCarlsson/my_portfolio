@@ -1,30 +1,34 @@
-import React, {Component} from 'react';
-import DropDown from './DropDown.js';
-import TitleLogo from './TitleLogo.js';
+import React, { Component } from "react"
+import DropDown from "./DropDown.js"
+import TitleLogo from "./TitleLogo.js"
 
-class Menu extends Component{
+class Menu extends Component {
   constructor(props) {
-    super(props);
-    this.state = {showPage:null};
+    super(props)
+    this.state = { showPage: null }
   }
-  showPageOrNot(bool){
-    this.setState({showPage:bool});
+  showPageOrNot(bool) {
+    this.setState({ showPage: bool })
   }
-  resetPage(){
-    this.refs.menuOptionsRef.handleChange(0);
-    if(this.state.showPage){
-        this.setState({showPage:false});
+  resetPage() {
+    this.refs.menuOptionsRef.handleChange(0)
+    if (this.state.showPage) {
+      this.setState({ showPage: false })
     }
   }
-  showPage(){
-    this.showPageOrNot(true);
+  showPage() {
+    this.showPageOrNot(true)
   }
-  render(){
-    return(
+  render() {
+    return (
       <div>
-        <TitleLogo resetPage={this.resetPage.bind(this)} showPage={this.state.showPage}/>
+        <TitleLogo
+          resetPage={this.resetPage.bind(this)}
+          showPage={this.state.showPage}
+        />
         <div id="menuDiv">
-          <DropDown ref="menuOptionsRef"
+          <DropDown
+            ref="menuOptionsRef"
             showPage={this.showPage.bind(this)}
             resetPage={this.resetPage.bind(this)}
           />
@@ -33,4 +37,4 @@ class Menu extends Component{
     )
   }
 }
-export default Menu;
+export default Menu
