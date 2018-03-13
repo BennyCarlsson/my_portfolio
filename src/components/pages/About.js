@@ -44,9 +44,10 @@ class About extends Component {
               programming and everything that has to do with technology, the
               internet and writing code. Moved to Kalmar 2012 to study software
               development at Linnaeus University and now I live in small town
-              close to Växjö working full time writing java. During my free time
-              I try to spend as much time possible writing code and other cool
-              stuff to show off on the internet.
+              close to Växjö working full time writing mostly java and
+              javascript. During my free time I try to spend as much time
+              possible writing code and other cool stuff to show off on the
+              internet.
             </p>
 
             <Chips />
@@ -73,21 +74,16 @@ class Chips extends Component {
       <div id="listAbout">
         <h3>Skills / Knowledge</h3>
         <div style={styles.wrapper}>
-          <Chip style={styles.chip}>Java</Chip>
           <Chip style={styles.chip}>JavaScript</Chip>
           <Chip style={styles.chip}>ReactJS</Chip>
-          <Chip style={styles.chip}>Git</Chip>
+          <Chip style={styles.chip}>React Native</Chip>
+          <Chip style={styles.chip}>Java</Chip>
+          <Chip style={styles.chip}>PHP</Chip>
           <Chip style={styles.chip}>HTML5</Chip>
           <Chip style={styles.chip}>CSS3</Chip>
-          <Chip style={styles.chip}>PHP</Chip>
-          <Chip style={styles.chip}>Android Dev</Chip>
+          <Chip style={styles.chip}>Git</Chip>
+          <Chip style={styles.chip}>Sql</Chip>
           <Chip style={styles.chip}>Scrum</Chip>
-          <Chip style={styles.chip}>C#</Chip>
-          <Chip style={styles.chip}>Unity</Chip>
-          <Chip style={styles.chip}>MySql</Chip>
-          <Chip style={styles.chip}>Photoshop</Chip>
-          <Chip style={styles.chip}>Illustrator</Chip>
-          <Chip style={styles.chip}>ASP.NET</Chip>
         </div>
       </div>
     )

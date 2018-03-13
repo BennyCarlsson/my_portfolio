@@ -7,7 +7,7 @@ class Contact extends Component {
         <div id="contactdiv">
           <h2>
             <a id="mailtag" href="mailto:carlsson.benny93@gmail.com">
-              carlsson.benny93@gmail.com
+              Carlsson.Benny93@gmail.com
             </a>
           </h2>
           <span id="SocialMediaSpan">

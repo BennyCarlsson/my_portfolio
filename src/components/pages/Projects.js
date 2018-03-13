@@ -217,7 +217,7 @@ class BennyCarlsson extends Component {
     return (
       <Card style={style} className="cardDiv">
         <CardMedia
-          overlay={<CardTitle style={titleStyle} title="bennycarlsson.com" />}
+          overlay={<CardTitle style={titleStyle} title="BennyCarlsson.com" />}
         >
           <div className="paperImageClass" style={imageStyleDiv}>
             <img
@@ -231,6 +231,9 @@ class BennyCarlsson extends Component {
           Check out the code for this website that I created using React.js
         </CardText>
         <CardActions style={styleCardFooter}>
+          <a href="http://bennycarlsson.com/" target="_blank">
+            <i className="fa fa-globe" aria-hidden="true" /> Website
+          </a>
           <a
             href="https://github.com/BennyCarlsson/my_portfolio"
             target="_blank"

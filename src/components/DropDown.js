@@ -28,7 +28,8 @@ const styles = {
     textDecoration: "underline"
   },
   tabs: {
-    backgroundColor: "#FAFAFE"
+    backgroundColor: "#FAFAFE",
+    justifyContent: "center"
   },
   displayNone: {
     display: "none"
