@@ -126,7 +126,7 @@ class MyTabs extends Component {
         <span className="mobileOnly">
           <Tabs
             inkBarStyle={{ display: "none" }}
-            tabItemContainerStyle={styles.tab}
+            tabItemContainerStyle={styles.tabs}
             onChange={this.props.handleChange}
             value={this.props.slideIndex}
           >

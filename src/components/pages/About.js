@@ -61,7 +61,7 @@ class About extends Component {
 }
 const styles = {
   chip: {
-    margin: 4
+    margin: 10
   },
   wrapper: {
     display: "flex",

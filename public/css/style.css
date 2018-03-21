@@ -4,7 +4,8 @@ html {
   height: 100vh;
   max-height: 100vh;
   overflow: hidden;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1.6;
 }
 a {
   color: black;
@@ -184,6 +185,10 @@ h3 {
 .projectDiv {
   width: 40%;
 }
+.cardTextDiv {
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+}
 #projectContent {
   animation-name: projectPapers;
   animation-duration: 2s;
@@ -219,8 +224,8 @@ h3 {
 }
 
 .flex-item {
-  width: 47%;
-  margin-bottom: 33px;
+  width: 40%;
+  margin-bottom: 150px;
 }
 .muidocs-icon-custom-github:before {
   content: "\e625";
@@ -266,6 +271,7 @@ h3 {
 }
 #listAbout {
   width: 31vw;
+  margin-top: 10%;
 }
 #paperAvatar {
   width: 20vw;

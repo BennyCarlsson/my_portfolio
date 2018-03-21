@@ -73,7 +73,7 @@ class FlappyTable extends Component {
             />
           </div>
         </CardMedia>
-        <CardText className="CardTextDiv">
+        <CardText className="cardTextDiv">
           FlappyTable was a fun project made by{" "}
           <a href="https://github.com/rs222kn" target="_blank">
             Richard
