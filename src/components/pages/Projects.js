@@ -21,6 +21,11 @@ class Projects extends Component {
         <div id="projectContent" className="flex-container">
           <div id="projectDiv0" className="projectDiv flex-item">
             <Paper style={style} zDepth={2} className="projectPaperDiv">
+              <LoremIpsum />
+            </Paper>
+          </div>
+          <div id="projectDiv0" className="projectDiv flex-item">
+            <Paper style={style} zDepth={2} className="projectPaperDiv">
               <FlappyTable />
             </Paper>
           </div>
@@ -55,6 +60,45 @@ class Projects extends Component {
           </div>
         </div>
       </div>
+    )
+  }
+}
+class LoremIpsum extends Component {
+  render() {
+    return (
+      <Card style={style} className="cardDiv">
+        <CardMedia
+          overlay={
+            <CardTitle style={titleStyle} title="Lorem Ipsum Generator" />
+          }
+        >
+          <div className="paperImageClass" style={imageStyleDiv}>
+            <img
+              src="images/loremipsumicon.jpg"
+              alt="lorem ipsum app icon"
+              style={imageStyle}
+            />
+          </div>
+        </CardMedia>
+        <CardText className="cardTextDiv">
+          Simple Lorem Ipsum Generator for your android device. Created with
+          React Native + Redux
+        </CardText>
+        <CardActions style={styleCardFooter}>
+          <a
+            href="https://github.com/BennyCarlsson/LoremIpsumGenerator"
+            target="_blank"
+          >
+            <i className="fa fa-github" aria-hidden="true" /> Github
+          </a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.bennycarlsson.loremipsum"
+            target="_blank"
+          >
+            <Download className="playstoreicon" />Playstore
+          </a>
+        </CardActions>
+      </Card>
     )
   }
 }
