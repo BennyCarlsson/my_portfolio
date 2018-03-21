@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Paper from "material-ui/Paper"
-import Download from "material-ui/svg-icons/action/get-app"
+import Download from "material-ui/svg-icons/action/android"
 import {
   Card,
   CardActions,
@@ -82,7 +82,13 @@ class LoremIpsum extends Component {
         </CardMedia>
         <CardText className="cardTextDiv">
           Simple Lorem Ipsum Generator for your android device. Created with
-          React Native + Redux
+          React Native + Redux. Available free for Android in the{" "}
+          <a
+            href="https://play.google.com/store/apps/details?id=com.bennycarlsson.loremipsum"
+            target="_blank"
+          >
+            Playstore
+          </a>
         </CardText>
         <CardActions style={styleCardFooter}>
           <a
@@ -162,8 +168,8 @@ class FollowMeHomeCard extends Component {
           School project made 2015 at Linnaeus University in Kalmar. An Android
           application made using Java and Android studio with small amount of
           php for backend with a MySQL database. Use the gps in your phone to
-          make sure you or your friends gets home safely! Available for Android
-          free in the{" "}
+          make sure you or your friends gets home safely! Available free for
+          Android in the{" "}
           <a
             href="https://play.google.com/store/apps/details?id=com.my.abrownapple.individueltmjukvaruprojekt"
             target="_blank"
