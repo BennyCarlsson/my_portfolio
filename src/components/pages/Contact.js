@@ -16,7 +16,7 @@ class Contact extends Component {
         </div>
         <div id="bennybananadiv">
           <img
-            src="images/benny-banana-selfie.png"
+            src="images/benny-banana-selfie_small.png"
             alt="benny carlsson taken a selfie with a banana"
           />
         </div>
