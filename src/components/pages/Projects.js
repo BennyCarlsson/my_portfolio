@@ -21,6 +21,16 @@ class Projects extends Component {
         <div id="projectContent" className="flex-container">
           <div id="projectDiv0" className="projectDiv flex-item">
             <Paper style={style} zDepth={2} className="projectPaperDiv">
+              <Mandarin />
+            </Paper>
+          </div>
+          <div id="projectDiv0" className="projectDiv flex-item">
+            <Paper style={style} zDepth={2} className="projectPaperDiv">
+              <Hacktoberfest />
+            </Paper>
+          </div>
+          <div id="projectDiv0" className="projectDiv flex-item">
+            <Paper style={style} zDepth={2} className="projectPaperDiv">
               <LoremIpsum />
             </Paper>
           </div>
@@ -34,16 +44,6 @@ class Projects extends Component {
               <FollowMeHomeCard />
             </Paper>
           </div>
-          <div id="projectDiv2" className="projectDiv flex-item">
-            <Paper style={style} zDepth={2} className="projectPaperDiv">
-              <BaraGodaNyheter />
-            </Paper>
-          </div>
-          <div id="projectDiv3" className="projectDiv flex-item">
-            <Paper style={style} zDepth={2} className="projectPaperDiv">
-              <Styggs />
-            </Paper>
-          </div>
           <div
             id="projectDiv4"
             className="lastProjectCard projectDiv flex-item"
@@ -51,12 +51,6 @@ class Projects extends Component {
             <Paper style={style} zDepth={2} className="projectPaperDiv">
               <BennyCarlsson />
             </Paper>
-          </div>
-          <div
-            id="projectDiv5"
-            className="lastProjectCard projectDiv flex-item"
-          >
-            <Paper style={style} zDepth={2} className="projectPaperDiv" />
           </div>
         </div>
       </div>
@@ -81,8 +75,8 @@ class LoremIpsum extends Component {
           </div>
         </CardMedia>
         <CardText className="cardTextDiv">
-          Simple Lorem Ipsum Generator for your android device. Created with
-          React Native + Redux. Available free for Android in the{" "}
+          Lorem Ipsum Generator for your android device. Created with React
+          Native + Redux. Available for Android in the{" "}
           <a
             href="https://play.google.com/store/apps/details?id=com.bennycarlsson.loremipsum"
             target="_blank"
@@ -101,7 +95,8 @@ class LoremIpsum extends Component {
             href="https://play.google.com/store/apps/details?id=com.bennycarlsson.loremipsum"
             target="_blank"
           >
-            <Download className="playstoreicon" />Playstore
+            <Download className="playstoreicon" />
+            Playstore
           </a>
         </CardActions>
       </Card>
@@ -165,11 +160,11 @@ class FollowMeHomeCard extends Component {
           </div>
         </CardMedia>
         <CardText className="cardTextDiv">
-          School project made 2015 at Linnaeus University in Kalmar. An Android
-          application made using Java and Android studio with small amount of
-          php for backend with a MySQL database. Use the gps in your phone to
-          make sure you or your friends gets home safely! Available free for
-          Android in the{" "}
+          School project made 2015 while studying at Linnaeus University in
+          Kalmar. An Android application made using Java and Android studio with
+          small amount of php for backend with a MySQL database. Use the gps in
+          your phone to make sure you or your friends gets home safely!
+          Available free for Android in the{" "}
           <a
             href="https://play.google.com/store/apps/details?id=com.my.abrownapple.individueltmjukvaruprojekt"
             target="_blank"
@@ -189,46 +184,40 @@ class FollowMeHomeCard extends Component {
             href="https://play.google.com/store/apps/details?id=com.my.abrownapple.individueltmjukvaruprojekt"
             target="_blank"
           >
-            <Download className="playstoreicon" />Playstore
+            <Download className="playstoreicon" />
+            Playstore
           </a>
         </CardActions>
       </Card>
     )
   }
 }
-class BaraGodaNyheter extends Component {
+class Mandarin extends Component {
   render() {
     return (
       <Card style={style} className="cardDiv">
         <CardMedia
-          overlay={<CardTitle style={titleStyle} title="Bara Goda Nyheter" />}
+          overlay={<CardTitle style={titleStyle} title="Mandarin Quiz" />}
         >
           <div className="paperImageClass" style={imageStyleDiv}>
             <img
-              src="images/baragodanyheter.jpg"
-              alt="Bara goda nyheter"
+              src="images/mandarin.JPG"
+              alt="Mandarin quiz website screenshot"
               style={imageStyle}
             />
           </div>
         </CardMedia>
         <CardText className="cardTextDiv">
-          BaraGodaNyheter (OnlyGoodNews) is a PHP project made at Linnaeus
-          University in Kalmar 2014. With the current media only reporting all
-          he horrible stuff in the world it's easy to se pass all the beauty in
-          the world and all the wonderful people living in it. I would love to
-          se more news focusing on all the good things happening in the world.
-          On the admin page it's also possible to write/edit/delete Articles,
-          post youtube videos, upload images, create and handle authors
-          accounts, handle pending articles and much more.
+          While studying mandarin in Shanghai spring 2019 I created this quiz
+          app to help my classmates and myself to practice the mandarin
+          characters called hanzi (汉字). This is a progressive web app (PWA)
+          made with ReactJS . Works best on mobile
         </CardText>
         <CardActions style={styleCardFooter}>
-          <a
-            href="https://github.com/BennyCarlsson/php-baragodanyheter"
-            target="_blank"
-          >
+          <a href="https://github.com/BennyCarlsson/mandarin" target="_blank">
             <i className="fa fa-github" aria-hidden="true" /> Github
           </a>
-          <a href="http://bennycarlsson.com/baragodanyheter/" target="_blank">
+          <a href="https://bennycarlsson.github.io/mandarin/" target="_blank">
             <i className="fa fa-globe" aria-hidden="true" /> Website
           </a>
         </CardActions>
@@ -236,25 +225,39 @@ class BaraGodaNyheter extends Component {
     )
   }
 }
-class Styggs extends Component {
+class Hacktoberfest extends Component {
   render() {
     return (
       <Card style={style} className="cardDiv">
-        <CardMedia overlay={<CardTitle style={titleStyle} title="STYGGS" />}>
+        <CardMedia
+          overlay={<CardTitle style={titleStyle} title="Hacktoberfest 2018" />}
+        >
           <div className="paperImageClass" style={imageStyleDiv}>
-            <img src="images/STYGGS.jpg" alt="styggs" style={imageStyle} />
+            <img
+              src="images/hacktoberfest-small.jpg"
+              alt="hacktoberfest website printscreen"
+              style={imageStyle}
+            />
           </div>
         </CardMedia>
         <CardText className="cardTextDiv">
-          PHP project made at Linnaeus University in Kalmar 2014 with a friend.
-          It's a text base RPG game. Register and try it out or just use the
-          test account Username: testperson Password: password
+          Hacktoberfest is a month-long celebration of open source software.
+          This project created together with{" "}
+          <a href="https://github.com/rs222kn" target="_blank">
+            Richard
+          </a>{" "}
+          was our contribution to the open source celebration. With over 800
+          contributors, 1800 forks and 2000 pull request we managed to create an
+          horrendous website. The website itself is a guide on how to get
+          started with contributing to open source projects. At the same time
+          being the project that you can contribute to by adding more
+          information or changing the design.
         </CardText>
         <CardActions style={styleCardFooter}>
-          <a href="https://github.com/BennyCarlsson/php-STYGGS" target="_blank">
+          <a href="https://github.com/lingonsaft/hacktoberfest" target="_blank">
             <i className="fa fa-github" aria-hidden="true" /> Github
           </a>
-          <a href="http://bennycarlsson.com/styggs/" target="_blank">
+          <a href="https://hacktoberfest.lingonsaft.com/" target="_blank">
             <i className="fa fa-globe" aria-hidden="true" /> Website
           </a>
         </CardActions>

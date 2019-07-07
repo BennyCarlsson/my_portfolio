@@ -170,7 +170,7 @@ h3 {
   margin-top: 5%;
 }
 .lastProjectCard {
-  margin-bottom: 50vh !important;
+  margin-bottom: 70vh !important;
 }
 .projectPaperDiv {
   width: 100%;
@@ -186,7 +186,7 @@ h3 {
   width: 40%;
 }
 .cardTextDiv {
-  font-size: 16px !important;
+  font-size: 18px !important;
   line-height: 1.6 !important;
 }
 #projectContent {
@@ -384,6 +384,9 @@ h3 {
     bottom: 10vh;
     z-index: -1;
   }
+  .lastProjectCard {
+    margin-bottom: 25vh !important;
+  }
 }
 @media only screen and (max-width: 767px) {
   /*#titleLogoH1{
@@ -471,5 +474,8 @@ h3 {
 
   .flex-item {
     width: 98vw;
+  }
+  .lastProjectCard {
+    margin-bottom: 25vh !important;
   }
 }
