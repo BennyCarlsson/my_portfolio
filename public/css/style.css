@@ -273,6 +273,7 @@ h3 {
   width: 31vw;
   margin-top: 10%;
 }
+
 #paperAvatar {
   width: 20vw;
   height: 20vw;
@@ -341,11 +342,11 @@ h3 {
   color: #025e67;
 }
 .mobileOnly {
-  display: none;
+  display: none !important;
 }
 @media only screen and (max-width: 1024px) {
   .mobileOnly {
-    display: none;
+    display: none !important;
   }
   ::-webkit-scrollbar {
     width: 0px; /* remove scrollbar space */
@@ -366,12 +367,12 @@ h3 {
     overflow: auto;
   }
   #paperAvatar {
-    width: 20vw;
-    height: 20vw;
+    float: right;
+    position: initial;
+    margin-top: -15vw;
+    width: 50vw;
+    height: 50vw;
     display: inline-block;
-    position: absolute;
-    right: 35px;
-    top: 35px;
   }
   #listAbout {
     width: 100%;
@@ -408,15 +409,6 @@ h3 {
     color: #00838f !important;
     border-bottom: 1px solid #00838f;
   }
-  #paperAvatar {
-    width: 20vw;
-    height: 20vw;
-    display: inline-block;
-    position: absolute;
-    right: 35px;
-    top: 25px;
-    box-shadow: none !important;
-  }
   #aboutTextDiv {
     position: absolute;
     width: 99%;
@@ -444,10 +436,10 @@ h3 {
     cursor: default;
   }
   .mobileOnly {
-    display: block;
+    display: block !important;
   }
   .desktopOnly {
-    display: none;
+    display: none !important;
   }
   ::-webkit-scrollbar {
     width: 0px; /* remove scrollbar space */
