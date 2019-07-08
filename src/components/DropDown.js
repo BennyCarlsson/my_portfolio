@@ -31,6 +31,10 @@ const styles = {
     backgroundColor: "#FAFAFE",
     justifyContent: "center"
   },
+  tabsMobile: {
+    backgroundColor: "#FAFAFE",
+    justifyContent: "space-evenly"
+  },
   displayNone: {
     display: "none"
   }
@@ -126,7 +130,7 @@ class MyTabs extends Component {
         <span className="mobileOnly">
           <Tabs
             inkBarStyle={{ display: "none" }}
-            tabItemContainerStyle={styles.tabs}
+            tabItemContainerStyle={styles.tabsMobile}
             onChange={this.props.handleChange}
             value={this.props.slideIndex}
           >
@@ -141,7 +145,7 @@ class MyTabs extends Component {
                       : "menuIcons"
                   }
                 >
-                  <Person />
+                  <Person style={{ width: 40, height: 40 }} />
                 </span>
               }
               value={1}
@@ -157,7 +161,7 @@ class MyTabs extends Component {
                   }
                 >
                   {" "}
-                  <Folder />
+                  <Folder style={{ width: 40, height: 40 }} />
                 </span>
               }
               value={2}
@@ -173,7 +177,7 @@ class MyTabs extends Component {
                   }
                 >
                   {" "}
-                  <Email />
+                  <Email style={{ width: 40, height: 40 }} />
                 </span>
               }
               value={3}

@@ -1,4 +1,4 @@
 Todo
-github link in contact
-google analytics
 Rename DropDown to MenuItems..
+about page layout use grid/flexbox?
+contact page layout use gridflexbox!

@@ -17,7 +17,7 @@ class Contact extends Component {
         <div id="bennybananadiv">
           <img
             src="images/benny-banana-selfie_small.png"
-            alt="benny carlsson taken a selfie with a banana"
+            alt="benny carlsson taking a selfie with a banana"
           />
         </div>
       </div>
@@ -36,6 +36,9 @@ class SocialMedia extends Component {
         </a>
         <a href="https://twitter.com/Benny_Carlsson" target="_blank">
           <i className="fa fa-twitter-square" aria-hidden="true" />
+        </a>
+        <a href="https://github.com/BennyCarlsson" target="_blank">
+          <i className="fa fa-github-square" aria-hidden="true" />
         </a>
       </div>
     )

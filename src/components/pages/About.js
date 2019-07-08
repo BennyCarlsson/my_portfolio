@@ -34,7 +34,7 @@ class About extends Component {
           <Paper
             id="paperAvatar"
             className="desktopOnly"
-            zDepth={4}
+            zDepth={2}
             circle={true}
           >
             <Avatar id="avatarImage" src="images/BennyCarlsson.jpg" />
@@ -45,21 +45,22 @@ class About extends Component {
               <Paper
                 id="paperAvatar"
                 className="mobileOnly"
-                zDepth={4}
+                zDepth={1}
                 circle={true}
               >
                 <Avatar id="avatarImage" src="images/BennyCarlsson.jpg" />
               </Paper>
-              Greetings, my name is Bennny Carlsson and I was born about{" "}
-              {this.state.secondsSinceMyBirth} seconds ago (~
-              {this.state.yearsSinceMyBirth}years ) in a small town called
-              Nässjö in Sweden. I love programming and everything that has to do
-              with technology, the internet and writing code. Moved to Kalmar
-              2012 to study software development at Linnaeus University and now
-              I live in small town close to Växjö working full time writing
-              mostly java and javascript. During my free time I try to spend as
-              much time possible writing code and other cool stuff to show off
-              on the internet.
+              My name is <span className="heavyFont">Benny Carlsson</span>. I
+              was born{" "}
+              <span className="heavyFont">
+                {this.state.yearsSinceMyBirth} years
+              </span>{" "}
+              ago in a small town called Nässjö in Sweden. I love programming
+              and everything that has to do with technology, the internet and
+              writing code.
+              <br />I studied Software Development 2012 at Linnaeus University
+              in Kalmar. After that I spent some time working full time as a
+              software developer mostly java, javascript and Reactjs.
             </p>
 
             <Chips />
