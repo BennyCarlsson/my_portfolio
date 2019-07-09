@@ -50,17 +50,16 @@ class About extends Component {
               >
                 <Avatar id="avatarImage" src="images/BennyCarlsson.jpg" />
               </Paper>
-              My name is <span className="heavyFont">Benny Carlsson</span>. I
-              was born{" "}
+              My name is <span className="heavyFont">Benny Carlsson</span>. Born{" "}
               <span className="heavyFont">
                 {this.state.yearsSinceMyBirth} years
               </span>{" "}
-              ago in a small town called Nässjö in Sweden. I love programming
-              and everything that has to do with technology, the internet and
+              ago in a small town called Nässjö in Sweden. I later 2012 studied
+              Software Development at Linnaeus University in Kalmar. After that
+              I spent some time working full time as a software developer mostly
+              java, javascript and Reactjs. <br />I love programming and
+              everything that has to do with technology, the internet and
               writing code.
-              <br />I studied Software Development 2012 at Linnaeus University
-              in Kalmar. After that I spent some time working full time as a
-              software developer mostly java, javascript and Reactjs.
             </p>
 
             <Chips />
