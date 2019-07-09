@@ -32,7 +32,7 @@ h3 {
 }
 .titleLogoDiv-big {
   animation-name: titleLogoToBigAnimation;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }
 @keyframes titleLogoToBigAnimation {
   from {
@@ -65,7 +65,7 @@ h3 {
   font-size: 2vw;
   margin-top: 0vh;
   animation-name: titleLogoToSmallAnimation;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }
 .titleLogoDiv h1 {
   color: white;
@@ -96,13 +96,13 @@ h3 {
 }
 .titleLogoDiv-small h1 {
   animation-name: titleLogoh1ToSmall;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   font-weight: 400;
   margin-top: 0px;
 }
 .titleLogoDiv-big h1 {
   animation-name: titleLogoh1ToBig;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }
 .titleLogoDiv:hover {
   cursor: pointer;
